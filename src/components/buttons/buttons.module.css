@@ -1,0 +1,16 @@
+.regularButton {
+  border: none;
+  border-radius: 28px;
+  padding: 15px 20px;
+  background-color: var(--darkblue);
+  color: var(--white);
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.regularButton:hover {
+  background-color: var(--black);
+  color: var(--white);
+}

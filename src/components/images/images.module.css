@@ -1,0 +1,5 @@
+.image {
+  border: 8px solid var(--darkblue);
+  border-radius: 3px;
+  width: 100%;
+}

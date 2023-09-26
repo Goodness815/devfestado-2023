@@ -11,14 +11,15 @@
 
   --font: "Poppins", sans-serif;
   --black: black;
-  --grey: #5f6368;
+  --grey: #5F6368;
   --white: white;
   --darkblue: #4285f4;
-  --lghtblue: #8ab4f8;
+  --lightblue: #8ab4f8;
   --darkgreen: #34a853;
   --lightgreen: #81c995;
   --darkyellow: #f9ab00;
   --lightyellow: #fde293;
+  --showcaseyellow: rgba(253, 226, 147, 0.3);
   --darkred: #ea4335;
   --lightred: #f28b82;
 }

@@ -1,0 +1,35 @@
+.story_container {
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.story_inner {
+  width: 90%;
+}
+.story_inner > h1 {
+  color: var(--grey);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 200px;
+}
+
+.story_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.story_item_image,
+.story_item_texts {
+  width: 45% !important;
+}
+
+.story_item_texts p {
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  margin: 30px 0px;
+}
