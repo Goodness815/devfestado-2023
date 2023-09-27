@@ -3,11 +3,11 @@ import Navbar from "../navbar";
 
 function LandingLayout({ children }: any) {
   return (
-    <>
+    <div style={{ overflowX: "hidden" }}>
       <Navbar />
       {children}
       <Footer />
-    </>
+    </div>
   );
 }
 
