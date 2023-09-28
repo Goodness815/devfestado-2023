@@ -65,6 +65,7 @@
   justify-content: center;
   gap: 3rem;
   width: 72.5%;
+  margin-inline: auto;
   align-items: center;
 }
 .ship {

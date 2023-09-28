@@ -1,4 +1,5 @@
 import LandingLayout from "../../components/layout";
+import { Marquee } from "./sections/marquee";
 import Pitch from "./sections/pitch";
 import Showcase from "./sections/showcase";
 import Speakers from "./sections/speakers";
@@ -10,6 +11,7 @@ function LandingPage() {
     <LandingLayout>
       <Showcase />
       <ThisYear />
+      <Marquee/>
       <Story />
       <Pitch />
       <Speakers />

@@ -1,0 +1,24 @@
+.marquee {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-block: 10px;
+  gap: 20px !important;
+}
+.marq1 {
+  transform: rotate(-5deg);
+  background: #f9ab00;
+}
+.marq2 {
+  transform: rotate(10deg);
+  background: #f9ab00;
+}
+.ticker {
+  height: 60px !important;
+}
+.marquee_p {
+  color: black;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
