@@ -1,5 +1,6 @@
 import styles from "./speakers.module.css";
 import speaker from "../../../../assets/speakers/speaker-img.svg";
+import ship from "../../../../assets/sponsor/ship.svg";
 import { Fedex, Flutter, Google, Mtn, Sc, Cowrywise } from "./images/images";
 
 const allSpeakers = [
@@ -77,6 +78,7 @@ function Speakers() {
             <div key={index}>{item}</div>
           ))}
         </div>
+        <img src={ship} className={styles.ship} />
       </section>
     </>
   );

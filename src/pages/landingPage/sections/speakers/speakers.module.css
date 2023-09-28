@@ -51,6 +51,7 @@
   gap: 6.5rem;
   background: var(--sponsorblue);
   padding-block: 61px;
+  position: relative;
 }
 .sponsor_heading {
   text-align: center;
@@ -61,7 +62,13 @@
 .sponsor_div {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 5rem;
+  justify-content: center;
+  gap: 3rem;
+  width: 72.5%;
   align-items: center;
+}
+.ship {
+  position: absolute;
+  top: 4.38%;
+  left: 0;
 }
