@@ -11,7 +11,7 @@
 
   --font: "Poppins", sans-serif;
   --black: black;
-  --grey: #5F6368;
+  --grey: #5f6368;
   --white: white;
   --darkblue: #4285f4;
   --lightblue: #8ab4f8;
@@ -22,4 +22,5 @@
   --showcaseyellow: rgba(253, 226, 147, 0.3);
   --darkred: #ea4335;
   --lightred: #f28b82;
+  --sponsorblue: rgba(138, 180, 248, 0.14);
 }

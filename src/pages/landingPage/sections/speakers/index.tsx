@@ -71,7 +71,7 @@ function Speakers() {
 
       {/* sponsors */}
       <section className={styles.sponsor_container}>
-        <h2>Sponsors & Partners</h2>
+        <h2 className={styles.sponsor_heading}>Sponsors & Partners</h2>
         <div className={styles.sponsor_div}>
           {logo.map((item, index) => (
             <div key={index}>{item}</div>
