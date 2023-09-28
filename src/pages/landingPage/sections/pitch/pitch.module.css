@@ -1,0 +1,44 @@
+.container {
+  background: var(--lightyellow);
+  padding-block: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.pitch {
+  font-family: var(--font);
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--black);
+  max-width: 700px;
+  text-align: center;
+}
+.content_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+}
+.text_div {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.paragraph {
+  color: var(--black);
+  max-width: 576px;
+  font-size: 16px;
+}
+.button {
+  background-color: var(--darkblue);
+  color: white;
+  border-radius: 20px;
+  padding-inline: 24px;
+  padding-block: 19px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  align-self: self-start;
+}
