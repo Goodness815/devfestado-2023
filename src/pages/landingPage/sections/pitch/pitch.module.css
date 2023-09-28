@@ -42,3 +42,9 @@
   border: none;
   align-self: self-start;
 }
+.button:hover {
+  background: var(--black);
+}
+img {
+  width: clamp(300px, 36vw, 583px);
+}

@@ -11,7 +11,7 @@ function LandingPage() {
     <LandingLayout>
       <Showcase />
       <ThisYear />
-      <Marquee/>
+      <Marquee />
       <Story />
       <Pitch />
       <Speakers />

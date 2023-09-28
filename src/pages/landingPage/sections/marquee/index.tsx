@@ -12,7 +12,7 @@ export const Marquee = () => {
       }}
     >
       <div style={{ background: "#F9AB00" }} className={styles.marq1}>
-        <Ticker direction={"toRight"}>
+        <Ticker>
           {({ index }) => (
             <div className={styles.marquee}>
               <p>DevFest Ado-Ekiti 2023</p>
