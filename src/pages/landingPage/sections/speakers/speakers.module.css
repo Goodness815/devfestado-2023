@@ -48,6 +48,7 @@
 .sponsor_container {
   padding-inline: 3.813rem;
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap: 6.5rem;
   background: var(--sponsorblue);
