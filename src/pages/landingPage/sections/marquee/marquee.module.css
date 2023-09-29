@@ -6,8 +6,10 @@
   gap: 20px !important;
 }
 .marq1 {
-  transform: rotate(-5deg);
   background: #f9ab00;
+  gap: 20px;
+  display: flex;
+  overflow: hidden;
 }
 .marq2 {
   transform: rotate(10deg);
@@ -24,4 +26,32 @@
   font-size: 40px;
   font-weight: 600;
   text-align: center;
+}
+
+.__ticker {
+  --ticker-duration: 20s;
+}
+
+.__ticker > ul {
+  width: fit-content;
+
+  will-change: transform;
+
+  animation-name: marquee;
+
+  animation-timing-function: linear;
+
+  animation-iteration-count: infinite;
+
+  animation-duration: var(--ticker-duration);
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
 }
