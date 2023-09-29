@@ -5,37 +5,68 @@ import { Fedex, Flutter, Google, Mtn, Sc, Cowrywise } from "./images/images";
 
 const allSpeakers = [
   {
-    img: <img src={speaker} alt="js" />,
+    img: (
+      <img
+        src={speaker}
+        alt="js"
+        style={{ maxWidth: "100%", width: 385, height: 385 }}
+      />
+    ),
     name: "First name & Last Name",
     title: "Title/Name of Company",
     role: "Speaker",
   },
   {
-    img: <img src={speaker} />,
+    img: (
+      <img
+        src={speaker}
+        style={{ maxWidth: "100%", width: 385, height: 385 }}
+      />
+    ),
     name: "First name & Last Name",
     title: "Title/Name of Company",
     role: "Speaker",
   },
   {
-    img: <img src={speaker} />,
+    img: (
+      <img
+        src={speaker}
+        style={{ maxWidth: "100%", width: 385, height: 385 }}
+      />
+    ),
     name: "First name & Last Name",
     title: "Title/Name of Company",
     role: "Speaker",
   },
   {
-    img: <img src={speaker} />,
+    img: (
+      <img
+        src={speaker}
+        style={{ maxWidth: "100%", width: 385, height: 385 }}
+      />
+    ),
     name: "First name & Last Name",
     title: "Title/Name of Company",
     role: "Speaker",
   },
   {
-    img: <img src={speaker} />,
+    img: (
+      <img
+        src={speaker}
+        style={{ maxWidth: "100%", width: 385, height: 385 }}
+      />
+    ),
     name: "First name & Last Name",
     title: "Title/Name of Company",
     role: "Speaker",
   },
   {
-    img: <img src={speaker} />,
+    img: (
+      <img
+        src={speaker}
+        style={{ maxWidth: "100%", width: 385, height: 385 }}
+      />
+    ),
     name: "First name & Last Name",
     title: "Title/Name of Company",
     role: "Speaker",
