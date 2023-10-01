@@ -1,7 +1,14 @@
 import styles from "./speakers.module.css";
 import speaker from "../../../../assets/speakers/speaker-img.svg";
-import ship from "../../../../assets/sponsor/ship.svg";
-import { Fedex, Flutter, Google, Mtn, Sc, Cowrywise } from "./images/images";
+import {
+  Fedex,
+  Flutter,
+  Google,
+  Mtn,
+  Sc,
+  Cowrywise,
+  Ship,
+} from "./images/images";
 
 const allSpeakers = [
   {
@@ -9,7 +16,9 @@ const allSpeakers = [
       <img
         src={speaker}
         alt="js"
-        style={{ maxWidth: "100%", width: 385, height: 385 }}
+        style={{
+          maxWidth: "100%",
+        }}
       />
     ),
     name: "First name & Last Name",
@@ -20,7 +29,9 @@ const allSpeakers = [
     img: (
       <img
         src={speaker}
-        style={{ maxWidth: "100%", width: 385, height: 385 }}
+        style={{
+          maxWidth: "100%",
+        }}
       />
     ),
     name: "First name & Last Name",
@@ -31,7 +42,9 @@ const allSpeakers = [
     img: (
       <img
         src={speaker}
-        style={{ maxWidth: "100%", width: 385, height: 385 }}
+        style={{
+          maxWidth: "100%",
+        }}
       />
     ),
     name: "First name & Last Name",
@@ -42,7 +55,9 @@ const allSpeakers = [
     img: (
       <img
         src={speaker}
-        style={{ maxWidth: "100%", width: 385, height: 385 }}
+        style={{
+          maxWidth: "100%",
+        }}
       />
     ),
     name: "First name & Last Name",
@@ -53,7 +68,9 @@ const allSpeakers = [
     img: (
       <img
         src={speaker}
-        style={{ maxWidth: "100%", width: 385, height: 385 }}
+        style={{
+          maxWidth: "100%",
+        }}
       />
     ),
     name: "First name & Last Name",
@@ -64,7 +81,9 @@ const allSpeakers = [
     img: (
       <img
         src={speaker}
-        style={{ maxWidth: "100%", width: 385, height: 385 }}
+        style={{
+          maxWidth: "100%",
+        }}
       />
     ),
     name: "First name & Last Name",
@@ -109,7 +128,7 @@ function Speakers() {
             <div key={index}>{item}</div>
           ))}
         </div>
-        <img src={ship} className={styles.ship} />
+        <Ship />
       </section>
     </>
   );

@@ -1,6 +1,6 @@
 import styles from "./marquee.module.css";
 
-function Slider({ rotate }: { rotate: "-5deg" | "10deg" }) {
+function Slider({ rotate }: { rotate: "-5deg" | "15deg" }) {
   return (
     <div
       style={{ background: "#F9AB00", transform: `rotate(${rotate})` }}

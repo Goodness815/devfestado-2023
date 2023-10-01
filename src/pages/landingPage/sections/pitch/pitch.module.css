@@ -9,7 +9,7 @@
 }
 .pitch {
   font-family: var(--font);
-  font-size: 50px;
+  font-size: clamp(21.33px, 3.125vw, 50.52px);
   font-weight: 700;
   color: var(--black);
   max-width: 700px;
@@ -17,9 +17,11 @@
 }
 .content_div {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 27px;
+  width: 90%;
+  margin-inline: auto;
+  gap: 10px;
 }
 .text_div {
   display: flex;
@@ -28,8 +30,8 @@
 }
 .paragraph {
   color: var(--black);
-  max-width: 576px;
-  font-size: 16px;
+  max-width: 700px;
+  font-size: clamp(14px, 1vw, 16px);
 }
 .button {
   background-color: var(--darkblue);
@@ -37,7 +39,7 @@
   border-radius: 20px;
   padding-inline: 24px;
   padding-block: 19px;
-  font-size: 16px;
+  font-size: clamp(14px, 1vw, 16px);
   outline: none;
   border: none;
   align-self: self-start;
@@ -47,4 +49,19 @@
 }
 img {
   width: clamp(300px, 36vw, 583px);
+}
+
+@media screen and (max-width: 700px) {
+  .content_div {
+    flex-direction: column;
+  }
+  .paragraph {
+    text-align: center;
+  }
+  .button {
+    align-self: center;
+  }
+  img {
+    width: 100%;
+  }
 }
