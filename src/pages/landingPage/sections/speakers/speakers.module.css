@@ -65,7 +65,7 @@
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   column-gap: 1rem;
-  width: 72.5%;
+  width: 90%;
   margin-inline: auto;
   align-items: center;
   z-index: 999;
