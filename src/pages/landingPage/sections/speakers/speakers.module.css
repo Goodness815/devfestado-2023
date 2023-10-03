@@ -68,7 +68,7 @@
   width: 72.5%;
   margin-inline: auto;
   align-items: center;
-  z-index: 999;
+  z-index: 1;
 }
 .ship {
   position: absolute;
