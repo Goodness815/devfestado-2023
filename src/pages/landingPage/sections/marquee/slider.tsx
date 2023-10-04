@@ -7,7 +7,7 @@ function Slider({ rotate }: { rotate: "-5deg" | "15deg" }) {
       className={`${styles.marq1} ${styles.__ticker}`}
     >
       {Array.from({ length: 6 }, () => (
-        <ul style={{ display: "flex", gap: "20px" }}>
+        <ul key={Math.random()} style={{ display: "flex", gap: "20px" }}>
           {Array(10)
             .fill(0)
             .map((_, idx) => (
