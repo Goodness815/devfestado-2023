@@ -108,6 +108,7 @@
     width: 10%;
   }
 }
+
 @media screen and (max-width: 600px) {
   .showcase_inner h1 {
     font-size: 30px;
@@ -136,5 +137,11 @@
     left: 8%;
     top: 42%;
     width: 7%;
+  }
+}
+
+@media screen and (max-height: 750px) {
+  .showcase_container {
+    min-height: 60vh;
   }
 }
