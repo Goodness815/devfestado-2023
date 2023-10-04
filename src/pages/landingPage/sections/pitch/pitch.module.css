@@ -22,6 +22,7 @@
   width: 90%;
   margin-inline: auto;
   gap: 10px;
+  max-width:1440px;
 }
 .text_div {
   display: flex;
@@ -36,7 +37,7 @@
 .button {
   background-color: var(--darkblue);
   color: white;
-  border-radius: 20px;
+  border-radius: 25px;
   padding-inline: 24px;
   padding-block: 19px;
   font-size: clamp(14px, 1vw, 16px);
