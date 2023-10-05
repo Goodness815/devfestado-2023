@@ -1,9 +1,13 @@
 import styles from "./marquee.module.css";
 
-function Slider({ rotate }: { rotate: "-5deg" | "15deg" }) {
+function Slider({ rotate }: { rotate: "-5deg" | "7deg" }) {
   return (
     <div
-      style={{ background: "#F9AB00", transform: `rotate(${rotate})` }}
+      style={{
+        background: "#F9AB00",
+        transform: `rotate(${rotate})`,
+        marginInline: "-10px",
+      }}
       className={`${styles.marq1} ${styles.__ticker}`}
     >
       {Array.from({ length: 6 }, () => (
