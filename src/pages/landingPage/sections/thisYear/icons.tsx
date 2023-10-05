@@ -1,6 +1,7 @@
-export const rightSwirlArrow = () => {
+export const RightSwirlArrow = ({ className }: any) => {
   return (
     <svg
+      className={className}
       xmlns="http://www.w3.org/2000/svg"
       width="196"
       height="140"
@@ -14,9 +15,10 @@ export const rightSwirlArrow = () => {
     </svg>
   );
 };
-export const leftSwirlArrow = () => {
+export const LeftSwirlArrow = ({ className }: any) => {
   return (
     <svg
+      className={className}
       xmlns="http://www.w3.org/2000/svg"
       width="196"
       height="129"

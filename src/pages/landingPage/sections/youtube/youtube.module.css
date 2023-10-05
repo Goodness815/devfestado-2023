@@ -1,0 +1,30 @@
+.youtube_container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.youtube_inner {
+  height: 70vh;
+  width: 80%;
+  padding: 30px;
+  background-color: #ea4335;
+  border-radius: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.youtube_inner h1 {
+  color: #fff;
+  text-align: center;
+  font-family: var(--font);
+  font-size: 32px;
+  font-weight: 700;
+  margin: 20px 0px;
+}
+.youtube_iframe {
+  border-radius: 30px;
+  margin-top: 10px;
+}

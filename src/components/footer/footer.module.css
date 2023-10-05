@@ -10,7 +10,7 @@
   width: 90%;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
 }
 .footer_inner_left,
 .footer_inner_right {
@@ -23,11 +23,19 @@
 .footer_inner_left img {
   margin-bottom: 20px;
 }
+.footer_inner_middle {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  max-width: 300px;
+}
 .footer_inner p {
   color: var(--white);
   font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
+  margin: 3px 0px;
 }
 
 .footer_inner_right span {
@@ -52,7 +60,10 @@
   font-size: 15px;
   font-weight: 400;
 }
-
+.footer_inner_right a svg {
+  width: 20px;
+  height: 20px;
+}
 @media screen and (max-width: 999px) {
   .footer_inner_left img {
     width: 100px;

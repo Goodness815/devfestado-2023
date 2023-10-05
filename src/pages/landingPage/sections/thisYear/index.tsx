@@ -1,5 +1,6 @@
 import Image from "../../../../components/images";
 import styles from "./thisyear.module.css";
+import { LeftSwirlArrow, RightSwirlArrow } from "./icons";
 import thisyear1 from "../../../../assets/pictures/thisyear1.webp";
 import thisyear2 from "../../../../assets/pictures/thisyear2.webp";
 
@@ -17,6 +18,7 @@ function ThisYear() {
               It's another time of the year, when we gather together for Devfest
               in Ado-Ekiti... <br /> <b>Read More</b>
             </p>
+            <RightSwirlArrow className={styles.thisyear_flex_left_icon} />
           </div>
           <div className={styles.thisyear_flex_right}>
             <p data-aos="fade-left" data-aos-duration="2000">
@@ -24,6 +26,7 @@ function ThisYear() {
               in Ado-Ekiti... <br /> <b>Read More</b>
             </p>
             <Image src={thisyear2} color="#34A853" />
+            <LeftSwirlArrow className={styles.thisyear_flex_right_icon} />
           </div>
         </div>
       </div>

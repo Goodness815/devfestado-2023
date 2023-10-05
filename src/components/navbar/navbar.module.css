@@ -52,7 +52,7 @@
   left: 0;
   background-color: #8ab4f8; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
+  padding-top: 50px; /* Place content 60px from the top */
   transition: 0.5s;
   display: flex;
   justify-content: center;
@@ -62,7 +62,7 @@
 }
 .sidenav_inner {
   width: 80%;
-  height: 90%;
+  height: 80%;
   background-color: var(--white);
   border-radius: 20px;
   padding: 40px;
@@ -130,6 +130,6 @@
     display: none;
   }
   .navbar_inner img {
-    width: 100px;
+    width: 110px;
   }
 }

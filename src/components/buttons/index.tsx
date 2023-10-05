@@ -1,12 +1,14 @@
 import styles from "./buttons.module.css";
+import { Link } from "react-router-dom";
 
-export const RegularButton = ({ title, className, onClick }: any) => {
+export const RegularButton = ({ title, className, url }: any) => {
   return (
-    <button
-      className={`${styles.regularButton} ${className}`}
-      onClick={onClick}
-    >
-      {title}
-    </button>
+    <Link to={url || ""} target="__blank">
+      <button
+        className={`${styles.regularButton} ${className}`}
+      >
+        {title}
+      </button>
+    </Link>
   );
 };
