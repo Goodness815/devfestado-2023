@@ -140,7 +140,7 @@
   }
 }
 
-@media screen and (max-height: 750px) {
+@media screen and (max-width: 400px) {
   .showcase_container {
     min-height: 60vh;
   }

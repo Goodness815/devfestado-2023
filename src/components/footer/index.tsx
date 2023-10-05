@@ -15,27 +15,32 @@ function Footer() {
         <div className={styles.footer_inner}>
           <div className={styles.footer_inner_left}>
             <img src={logo} alt="devfestlogo23" />
+          </div>
+          <div className={styles.footer_inner_middle}>
             <p>Saturday, 4th November, 2023</p>
             <p>Ado-Ekiti, Ekiti State, Nigeria</p>
-            <p>
-              For enquiry, sponsorship or partnership, kindly contact:
-              faith.oni@gdgadoekiti.dev
-            </p>
+            <p>For enquiry, sponsorship or partnership</p>
+            <p>Contact : faith.oni@gdgadoekiti.dev</p>
           </div>
           <div className={styles.footer_inner_right}>
-            <p>Join the community here</p>
+            <Link target="__blank" to="https://gdg.community.dev/gdg-ado-ekiti">
+              <p>Join the community here</p>
+            </Link>
             <span>Follow us today</span>
             <div className={styles.footer_inner_right_flex}>
-              <Link to="#">
+              <Link target="__blank" to="https://facebook.com/gdgadoekiti">
                 <FacebookIcon />
               </Link>
-              <Link to="#">
+              <Link target="__blank" to="https://twitter.com/gdgadoekiti">
                 <TwitterIcon />
               </Link>
-              <Link to="#">
+              <Link
+                target="__blank"
+                to="https://www.linkedin.com/company/gdgadoekiti/"
+              >
                 <LinkednIcon />
               </Link>
-              <Link to="#">
+              <Link target="__blank" to="https://instagram.com/gdgadoekiti_">
                 <InstagramIcon />
               </Link>
             </div>

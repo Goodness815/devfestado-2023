@@ -19,21 +19,25 @@ export const TwitterIcon = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="35"
-      height="37"
-      viewBox="0 0 40 37"
+      width="24"
+      height="25"
+      viewBox="0 0 24 25"
       fill="none"
     >
-      <g clipPath="url(#clip0_62_414)">
+      <g clip-path="url(#clip0_62_414)">
         <path
-          d="M31.4859 0.150879H37.5904L24.257 15.4922L40 36.2955H27.6305L17.992 23.685L6.90763 36.2955H0.803213L15.1004 19.9099L0 0.150879H12.6908L21.4458 11.7171L31.4859 0.150879ZM29.3173 32.6007H32.6908L10.8434 3.60469H7.14859L29.3173 32.6007Z"
+          d="M18.8916 0.575195H22.5542L14.5542 10.7619L24 24.5752H16.5783L10.7952 16.2019L4.14458 24.5752H0.481928L9.06024 13.6952L0 0.575195H7.61446L12.8675 8.2552L18.8916 0.575195ZM17.5904 22.1219H19.6145L6.50602 2.86853H4.28916L17.5904 22.1219Z"
           fill="#F1F3F4"
         />
       </g>
-      <rect x="0.5" y="0.650879" width="39" height="35.1446" stroke="#F1F3F4" />
       <defs>
         <clipPath id="clip0_62_414">
-          <rect y="0.150879" width="40" height="36.1446" fill="white" />
+          <rect
+            width="24"
+            height="24"
+            fill="white"
+            transform="translate(0 0.575195)"
+          />
         </clipPath>
       </defs>
     </svg>

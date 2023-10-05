@@ -19,10 +19,14 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-top: 100px;
+  margin-top: 150px;
+  position: relative;
 }
 
-.story_item_image,
+.story_item_image {
+  width: 40% !important;
+}
+
 .story_item_texts {
   width: 45% !important;
 }
@@ -32,6 +36,12 @@
   font-size: 15px;
   font-weight: 400;
   margin: 30px 0px;
+}
+.story_icon {
+  position: absolute;
+  top: -80px;
+  right: 47%;
+  width: 200px;
 }
 
 @media screen and (max-width: 999px) {
