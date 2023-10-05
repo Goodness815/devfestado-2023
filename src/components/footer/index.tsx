@@ -28,12 +28,13 @@ function Footer() {
             </Link>
             <span>Follow us today</span>
             <div className={styles.footer_inner_right_flex}>
-              <Link target="__blank" to="https://facebook.com/gdgadoekiti">
-                <FacebookIcon />
-              </Link>
               <Link target="__blank" to="https://twitter.com/gdgadoekiti">
                 <TwitterIcon />
               </Link>
+              <Link target="__blank" to="https://facebook.com/gdgadoekiti">
+                <FacebookIcon />
+              </Link>
+
               <Link
                 target="__blank"
                 to="https://www.linkedin.com/company/gdgadoekiti/"
