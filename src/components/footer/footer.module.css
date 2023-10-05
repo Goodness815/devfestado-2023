@@ -38,7 +38,7 @@
   margin: 20px 0px;
 }
 .footer_inner_right a {
-  margin: 0px 10px;
+  margin-right: 20px;
 }
 .footer_bottom {
   background: var(--grey);
@@ -51,4 +51,35 @@
   font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
+}
+
+@media screen and (max-width: 999px) {
+  .footer_inner_left img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  .footer_inner p {
+    font-size: 8px;
+  }
+  .footer_inner_right_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer_inner_right span {
+    font-size: 10px;
+    margin: 10px 0px;
+  }
+  .footer_inner_right a svg {
+    width: 15px;
+    height: 15px;
+  }
+  .footer_bottom {
+    height: 40px;
+    width: 100%;
+    font-size: 8px;
+  }
+  .footer_inner_left {
+    margin-right: 10px;
+  }
 }

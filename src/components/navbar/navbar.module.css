@@ -16,7 +16,7 @@
   width: 90%;
 }
 .navbar_inner img {
-  width: 170px;
+  width: 150px;
 }
 .navbar_ul {
   display: flex;
@@ -27,11 +27,109 @@
   text-decoration: none;
   font-family: var(--font);
   color: var(--black);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   margin-right: 30px;
   transition: 0.5s ease;
 }
 .navbar_ul a:hover {
   color: var(--lightblue);
+}
+
+.navbar_hamburger {
+  display: none;
+  width: 30px !important;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100vh; /* 100% Full-height */
+  width: 100%; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 5; /* Stay on top */
+  top: 0; /* Stay at the top */
+  bottom: 0;
+  left: 0;
+  background-color: #8ab4f8; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+}
+.sidenav_inner {
+  width: 80%;
+  height: 90%;
+  background-color: var(--white);
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.sidenav_show {
+  visibility: visible;
+  opacity: 1;
+}
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  display: block;
+  font-family: var(--font);
+  font-weight: 500;
+}
+
+.sidenav_inner a {
+  padding: 0px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 25px 0px;
+  color: black;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: var(--darkblue);
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidebar_button {
+  padding: 10px 20px !important;
+  font-size: 11px !important;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-width: 1050px) {
+  .navbar_button {
+    display: none;
+  }
+  .navbar_hamburger {
+    display: block;
+  }
+  .navbar_ul a {
+    display: none;
+  }
+  .navbar_inner img {
+    width: 100px;
+  }
 }

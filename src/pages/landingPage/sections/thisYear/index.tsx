@@ -15,13 +15,13 @@ function ThisYear() {
             <Image src={thisyear1} color="red" />
             <p data-aos="fade-right" data-aos-duration="3000">
               It's another time of the year, when we gather together for Devfest
-              in Ado-Ekiti... <b>Read More</b>
+              in Ado-Ekiti... <br /> <b>Read More</b>
             </p>
           </div>
           <div className={styles.thisyear_flex_right}>
             <p data-aos="fade-left" data-aos-duration="2000">
               It's another time of the year, when we gather together for Devfest
-              in Ado-Ekiti... <b>Read More</b>
+              in Ado-Ekiti... <br /> <b>Read More</b>
             </p>
             <Image src={thisyear2} color="#34A853" />
           </div>

@@ -37,3 +37,31 @@
   font-size: 18px;
   font-weight: 400;
 }
+
+@media screen and (max-width: 999px) {
+  .thisyear_inner > h1 {
+    font-size: 25px;
+    padding-top: 50px;
+  }
+  .thisyear_flex {
+    margin-top: 70px;
+  }
+  .thisyear_flex_left p,
+  .thisyear_flex_right p {
+    padding: 100px 40px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .thisyear_inner > h1 {
+    font-size: 20px;
+  }
+  .thisyear_flex {
+    margin-top: 60px;
+  }
+  .thisyear_flex_left p,
+  .thisyear_flex_right p {
+    padding: 40px 15px;
+    font-size: 10px;
+  }
+}
