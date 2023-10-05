@@ -6,6 +6,7 @@ import Speakers from "./sections/speakers";
 import Story from "./sections/story";
 import ThisYear from "./sections/thisYear";
 import Youtube from "./sections/youtube";
+import CountdownTimer from "./sections/countdown/CountdownTimer"
 
 function LandingPage() {
   return (
@@ -17,6 +18,7 @@ function LandingPage() {
       <Pitch />
       <Speakers />
       <Youtube />
+      <CountdownTimer />
     </LandingLayout>
   );
 }
