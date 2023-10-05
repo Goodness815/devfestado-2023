@@ -105,7 +105,7 @@ function Story() {
           <div className={styles.story_item}>
             <img
               src={arrowDown1}
-              className={styles.story_icon}
+              className={`${styles.story_icon} ${styles.story_icon_2}`}
               alt="arrow icon"
             />
 

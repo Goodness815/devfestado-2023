@@ -35,6 +35,7 @@
   font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
+  line-height: 22px;
   margin: 30px 0px;
 }
 .story_icon {
@@ -42,6 +43,9 @@
   top: -80px;
   right: 47%;
   width: 200px;
+}
+.story_icon_2 {
+  top: -120px;
 }
 
 @media screen and (max-width: 999px) {

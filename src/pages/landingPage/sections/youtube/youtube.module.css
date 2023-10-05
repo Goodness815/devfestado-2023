@@ -1,5 +1,5 @@
 .youtube_container {
-  min-height: 100vh;
+  min-height: 120vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -7,7 +7,7 @@
   background-color: black;
 }
 .youtube_inner {
-  height: 70vh;
+  height: 80vh;
   width: 80%;
   padding: 30px;
   background-color: #ea4335;
