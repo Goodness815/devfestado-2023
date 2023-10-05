@@ -50,6 +50,7 @@ function Showcase() {
           <RegularButton
             title="Register Here"
             className={styles.showcase_button}
+            url="https://bit.ly/devfestado23"
           />
         </div>
       </div>
