@@ -48,7 +48,7 @@
 .button:hover {
   background: var(--black);
 }
-img {
+.pitchImage {
   width: clamp(300px, 36vw, 583px);
 }
 
@@ -62,7 +62,7 @@ img {
   .button {
     align-self: center;
   }
-  img {
+  .pitchImage {
     width: 100%;
   }
 }
