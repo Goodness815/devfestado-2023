@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link} from "react-router-dom";
 import logo from "../../assets/header/logo.png";
 import styles from "./navbar.module.css";
 import { RegularButton } from "../buttons";
@@ -6,7 +6,6 @@ import hamburger from "../../assets/header/hamburger.svg";
 import { useState } from "react";
 function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const navigate = useNavigate();
   const openNav = () => {
     setIsNavOpen(true);
   };
