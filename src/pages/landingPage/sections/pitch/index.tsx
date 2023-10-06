@@ -4,7 +4,8 @@ import pitchImg from "../../../../assets/pitch/pitch-image.svg";
 export const Pitch = () => {
   return (
     <section className={styles.container}>
-      <p className={styles.pitch}>Pitch Your Idea @ Devfest Ado-Ekiti 2023</p>
+      <p className={styles.pitch}>Pitch Your Idea</p>
+      <p className={styles.pitch}> @ Devfest Ado-Ekiti 2023</p>
       <div className={styles.content_div}>
         <img className={styles.pitchImage} src={pitchImg} alt="img" />
 
@@ -19,7 +20,9 @@ export const Pitch = () => {
             hendrerit aliquam. Enim at sed in.Lorem ipsum dolor sit
           </p>
           <a href="https://bit.ly/devfestado23ideapitch" target="__blank">
-          <button className={styles.button}>Click here to get started</button>
+            <button className={styles.regularButton}>
+              Click here to get started
+            </button>
           </a>
         </div>
       </div>
