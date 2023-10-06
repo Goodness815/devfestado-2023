@@ -1,17 +1,17 @@
-import{ useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import styles from "./countdown.module.css";
 
 function CountdownTimer() {
   const [countdown, setCountdown] = useState({
     days: 0,
-    hours: '0',
-    minutes: '0',
-    seconds: '0',
+    hours: "0",
+    minutes: "0",
+    seconds: "0",
   });
 
   useEffect(() => {
     const targetDate: any = new Date(
-      `${new Date().getFullYear()}-11-04T00:00:00`
+      `${new Date().getFullYear()}-11-05T09:00:00`
     );
     const interval = setInterval(() => {
       const now: any = new Date();

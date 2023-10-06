@@ -7,7 +7,8 @@
   position: relative;
 }
 .showcase_inner {
-  max-width: 750px;
+  max-width: 780px;
+  /* max-width: 65%; */
   padding-top: 50px;
   display: flex;
   flex-direction: column;
@@ -15,20 +16,23 @@
   justify-content: center;
 }
 .showcase_inner h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: var(--black);
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  /* font-family: var(--font); */
   font-size: 60px;
+  font-style: normal;
   font-weight: 900;
+  line-height: normal;
 }
 .showcase_inner p {
   text-align: center;
   font-family: var(--font);
   color: var(--grey);
   font-size: 25px;
-  font-weight: 700;
-  line-height: 40px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 130%;
   margin-top: 30px;
 }
 
@@ -70,9 +74,9 @@
   width: 4%;
 }
 .next_icon {
-  left: 22%;
-  top: 35%;
-  width: 5%;
+  left: 20%;
+  top: 37%;
+  width: 4%;
   transform: rotate(30deg);
 }
 

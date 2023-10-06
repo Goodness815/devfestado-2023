@@ -18,7 +18,9 @@ export const Pitch = () => {
             elementum et porta aenean ac in quis fusce. Etiam lorem elementum
             hendrerit aliquam. Enim at sed in.Lorem ipsum dolor sit
           </p>
+          <a href="https://bit.ly/devfestado23ideapitch" target="__blank">
           <button className={styles.button}>Click here to get started</button>
+          </a>
         </div>
       </div>
     </section>

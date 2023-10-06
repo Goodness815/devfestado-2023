@@ -36,12 +36,15 @@ function Showcase() {
       />
       <div className={styles.showcase_inner}>
         <h1 data-aos="zoom-in" data-aos-delay="500">
-          Are you READY...
+          Are you READY for the...
         </h1>
         <p data-aos="fade-up" data-aos-duration="400">
-          for the biggest tech event in Ekiti State, where developers are been
+          biggest tech event in Ekiti State, where developers are being
           celebrated and you have access to network with top-tech talents?
+          <br />
+          Devfest Ado-Ekiti 2023 is that tech festival you must attend!
         </p>
+
         <div
           data-aos="fade-zoom-in"
           data-aos-easing="ease-in-back"
