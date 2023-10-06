@@ -29,7 +29,7 @@ function Story() {
 
   return (
     <>
-      <div className={styles.story_container}>
+      <div id="story" className={styles.story_container}>
         <div className={styles.story_inner}>
           <h1
             data-aos="fade-up"
@@ -93,7 +93,7 @@ function Story() {
           </div>
         </div>
       </div>
-      <div className={styles.story_container}>
+      <div id="about" className={styles.story_container}>
         <div className={styles.story_inner}>
           <h1
             data-aos="fade-up"

@@ -7,7 +7,7 @@
   position: relative;
 }
 .showcase_inner {
-  max-width: 780px;
+  max-width: 70%;
   /* max-width: 65%; */
   padding-top: 50px;
   display: flex;
@@ -37,7 +37,7 @@
 }
 
 .showcase_button {
-  margin-top: 40px;
+  margin-top: 30px;
   color: var(--white);
   font-family: var(--font);
   font-size: 16px;
@@ -48,7 +48,7 @@
 
 .showcase_icon {
   position: absolute;
-  width: 5%;
+  width: 6.5%;
 }
 
 .cup_icon {
@@ -66,12 +66,17 @@
 .people_icon {
   left: -30px;
   bottom: -50px;
-  width: 10%;
+  width: 13%;
 }
 .arrow_icon {
-  right: 30%;
+  right: 37%;
   bottom: 15%;
-  width: 4%;
+  width: 5%;
+}
+.kite_icon {
+  right: 0%;
+  bottom: 0%;
+  width: 10%;
 }
 .next_icon {
   left: 20%;

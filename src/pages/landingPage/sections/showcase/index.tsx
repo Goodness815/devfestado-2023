@@ -3,6 +3,7 @@ import cupIcon from "../../../../assets/icons/cup.png";
 import peopleIcon from "../../../../assets/icons/illustration2.png";
 import arrowIcon from "../../../../assets/icons/redo.png";
 import worldIcon from "../../../../assets/icons/world.png";
+import kiteIcon from "../../../../assets/icons/kite.png";
 import nextIcon from "../../../../assets/icons/showarrow.png";
 import styles from "./showcase.module.css";
 
@@ -34,15 +35,21 @@ function Showcase() {
         alt=""
         className={`${styles.showcase_icon} ${styles.world_icon}`}
       />
+      <img
+        src={kiteIcon}
+        alt=""
+        className={`${styles.showcase_icon} ${styles.kite_icon}`}
+      />
       <div className={styles.showcase_inner}>
         <h1 data-aos="zoom-in" data-aos-delay="500">
           Are you READY for the...
         </h1>
         <p data-aos="fade-up" data-aos-duration="400">
-          biggest tech event in Ekiti State, where developers are being
-          celebrated and you have access to network with top-tech talents?
+          most anticipated tech event in Ekiti State, where tech enthusiasts
+          from all backgrounds are celebrated and you have the chance to connect
+          with top tech talents?
           <br />
-          Devfest Ado-Ekiti 2023 is that tech festival you must attend!
+          Devfest Ado-Ekiti 2023 is soon to be an unforgettable experience!
         </p>
 
         <div
