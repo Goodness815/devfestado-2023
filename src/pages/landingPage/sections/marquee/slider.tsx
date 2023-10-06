@@ -1,12 +1,13 @@
 import styles from "./marquee.module.css";
 
-function Slider({ rotate }: { rotate: "-5deg" | "7deg" }) {
+function Slider({ rotate }: { rotate: "-50deg" | "50deg" }) {
   return (
     <div
       style={{
         background: "#F9AB00",
         transform: `rotate(${rotate})`,
         marginInline: "-10px",
+        height: "86px",
       }}
       className={`${styles.marq1} ${styles.__ticker}`}
     >
@@ -16,7 +17,15 @@ function Slider({ rotate }: { rotate: "-5deg" | "7deg" }) {
             .fill(0)
             .map((_, idx) => (
               <li className={styles.marquee} key={idx}>
-                <p style={{ whiteSpace: "nowrap" }}>DevFest Ado-Ekiti 2023</p>
+                <p
+                  style={{
+                    whiteSpace: "nowrap",
+                    fontWeight: 600,
+                    fontSize: "20px",
+                  }}
+                >
+                  DevFest Ado-Ekiti 2023
+                </p>
                 <svg
                   width="29"
                   height="29"

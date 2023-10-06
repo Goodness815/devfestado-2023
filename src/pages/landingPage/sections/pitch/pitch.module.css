@@ -34,6 +34,7 @@
   color: var(--black);
   max-width: 700px;
   font-size: clamp(14px, 1vw, 16px);
+  line-height: normal;
 }
 .button {
   background-color: var(--darkblue);
@@ -76,8 +77,8 @@
   .paragraph {
     text-align: center;
   }
-  .button {
-    align-self: center;
+  .regularButton {
+    /* display: contents; */
   }
   .pitchImage {
     width: 100%;
