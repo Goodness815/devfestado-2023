@@ -6,7 +6,7 @@ export const Pitch = () => {
     <section className={styles.container}>
       <p className={styles.pitch}>Pitch Your Idea @ Devfest Ado-Ekiti 2023</p>
       <div className={styles.content_div}>
-        <img className='pitchImage' src={pitchImg} alt="img" />
+        <img className={styles.pitchImage} src={pitchImg} alt="img" />
 
         <div className={styles.text_div}>
           <p className={styles.paragraph}>
