@@ -36,6 +36,12 @@
   right: -160px;
   width: 140px;
 }
+.flex_icon {
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+  width: 70px;
+}
 .thisyear_flex_right_icon {
   position: absolute;
   bottom: 13%;
@@ -49,7 +55,7 @@
   text-align: right;
   font-family: var(--font);
   font-size: 18px;
-  
+
   font-weight: 400;
 }
 

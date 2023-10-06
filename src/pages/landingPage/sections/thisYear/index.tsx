@@ -3,9 +3,15 @@ import styles from "./thisyear.module.css";
 import { LeftSwirlArrow, RightSwirlArrow } from "./icons";
 import thisyear1 from "../../../../assets/pictures/thisyear1.webp";
 import thisyear2 from "../../../../assets/pictures/thisyear2.webp";
-import { Link } from "react-router-dom";
+import icon from "../../../../assets/icons/wobly.png";
+// import React from "react";
+import { Link as ScrollLink } from "react-scroll";
+// interface YearProps {
+//   scrollToStory: () => void;
+//   // scrollToAbout: () => void;
+// }
 
-function ThisYear() {
+const ThisYear = () => {
   return (
     <div className={styles.thisyear_container}>
       <div className={styles.thisyear_inner}>
@@ -18,19 +24,38 @@ function ThisYear() {
             <p data-aos="fade-right" data-aos-duration="3000">
               It's another time of the year, when we gather together for Devfest
               in Ado-Ekiti... <br />{" "}
-              <Link to="" style={{ color: "black", textDecoration: "none" }}>
-                <b>Read More</b>
-              </Link>
+              <b>
+                <ScrollLink
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-50} // Adjust the offset as needed to account for any fixed header
+                  duration={500}
+                  style={{ cursor: "pointer" }}
+                >
+                  Read More
+                </ScrollLink>
+              </b>
             </p>
+            <img src={icon} className={styles.flex_icon} alt="" />
             <RightSwirlArrow className={styles.thisyear_flex_left_icon} />
           </div>
           <div className={styles.thisyear_flex_right}>
             <p data-aos="fade-left" data-aos-duration="2000">
               We are super excited that our amazing community, GDG Ado-Ekiti is
-              10 years old... <br />{" "}
-              <Link to="" style={{ color: "black", textDecoration: "none" }}>
-                <b>Read More</b>
-              </Link>
+              10 years old... <br />
+              <b>
+                <ScrollLink
+                  to="story"
+                  spy={true}
+                  smooth={true}
+                  offset={-50} // Adjust the offset as needed to account for any fixed header
+                  duration={500}
+                  style={{ cursor: "pointer" }}
+                >
+                  Read More
+                </ScrollLink>
+              </b>
             </p>
             <Image src={thisyear2} color="#34A853" />
             <LeftSwirlArrow className={styles.thisyear_flex_right_icon} />
@@ -39,6 +64,6 @@ function ThisYear() {
       </div>
     </div>
   );
-}
+};
 
 export default ThisYear;
