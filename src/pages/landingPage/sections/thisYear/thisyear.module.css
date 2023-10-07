@@ -55,7 +55,6 @@
   text-align: right;
   font-family: var(--font);
   font-size: 18px;
-
   font-weight: 400;
 }
 
@@ -72,6 +71,21 @@
     padding: 100px 40px;
     font-size: 15px;
   }
+  .thisyear_flex_left_icon {
+    top: 10%;
+    right: -60px;
+    width: 80px;
+  }
+  .flex_icon {
+    position: absolute;
+    bottom: 32%;
+    width: 40px;
+  }
+  .thisyear_flex_right_icon {
+    bottom: 13%;
+    left: -60px;
+    width: 80px;
+  }
 }
 @media screen and (max-width: 600px) {
   .thisyear_inner > h1 {
@@ -84,5 +98,19 @@
   .thisyear_flex_right p {
     padding: 40px 15px;
     font-size: 10px;
+  }
+  .thisyear_flex_left_icon {
+    top: 0%;
+    right: -30px;
+    width: 40px;
+  }
+  .flex_icon {
+    bottom: 25%;
+    width: 20px;
+  }
+  .thisyear_flex_right_icon {
+    bottom: 0%;
+    left: -30px;
+    width: 40px;
   }
 }

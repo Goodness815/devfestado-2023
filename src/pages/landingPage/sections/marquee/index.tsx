@@ -11,6 +11,7 @@ export const Marquee = () => {
     >
       <Slider rotate="-5deg" />
       <Slider rotate="7deg" />
+
     </section>
   );
 };
