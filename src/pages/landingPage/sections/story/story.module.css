@@ -1,6 +1,5 @@
 .story_container {
   display: flex;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -51,20 +50,29 @@
 @media screen and (max-width: 999px) {
   .story_inner > h1 {
     font-size: 25px;
-    padding-top: 200px;
+    padding-top: 130px;
   }
   .story_item {
     flex-direction: column;
     margin-top: 60px;
+  }
+  .story_item_responsive {
+    flex-direction: column-reverse !important;
   }
   .story_item_image,
   .story_item_texts {
     width: 95% !important;
   }
   .story_item_image {
-    max-height: 400px;
+    max-height: 200px;
     object-position: center;
     object-fit: cover;
+  }
+  .story_icon {
+    display: none;
+  }
+  .story_icon_2 {
+    display: none;
   }
 }
 @media screen and (max-width: 600px) {
@@ -78,6 +86,6 @@
     font-family: var(--font);
     font-size: 10px;
     font-weight: 400;
-    margin-top: 20px;
+    margin: 10px 0px;
   }
 }

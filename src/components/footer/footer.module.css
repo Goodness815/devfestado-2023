@@ -63,6 +63,9 @@
   width: 20px;
   height: 20px;
 }
+.footer_res_addition {
+  display: none;
+}
 @media screen and (max-width: 999px) {
   .footer_inner_left img {
     width: 100px;
@@ -91,5 +94,13 @@
   }
   .footer_inner_left {
     margin-right: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer_res_addition {
+    display: block;
+  }
+  .footer_res_removal {
+    display: none;
   }
 }

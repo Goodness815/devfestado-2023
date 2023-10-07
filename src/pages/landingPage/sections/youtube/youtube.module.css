@@ -28,3 +28,40 @@
   border-radius: 30px;
   margin-top: 10px;
 }
+@media screen and (max-width: 999px) {
+  .youtube_container {
+    min-height: 80vh;
+  }
+  .youtube_inner h1 {
+    font-size: 20px;
+  }
+  .youtube_inner {
+    height: 50vh;
+    width: 90%;
+    padding: 20px 10px;
+    border-radius: 60px;
+  }
+  .youtube_iframe {
+    border-radius: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .youtube_container {
+    min-height: auto;
+    padding-top: 50px;
+  }
+  .youtube_inner h1 {
+    font-size: 12px;
+    margin: 10px 0px;
+  }
+  .youtube_inner {
+    height: 250px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 30px;
+  }
+  .youtube_iframe {
+    border-radius: 10px;
+    margin-top: 0;
+  }
+}
