@@ -59,35 +59,26 @@ function Story() {
             )}
             <div className={styles.story_item_texts}>
               <p data-aos="zoom-in-left">
-                Lorem ipsum dolor sit amet consectetur. Lectus at massa cursus
-                nisi dictum proin aliquet tellus pulvinar. Viverra et elementum
-                et porta aenean ac in quis fusce. Etiam lorem elementum
-                hendrerit aliquam. Enim at sed in.Lorem ipsum dolor sit amet
-                consectetur. Lectus at massa cursus nisi dictum proin aliquet
-                tellus pulvinar. Viverra et elementum et porta aenean ac in quis
-                fusce. Etiam lorem elementum hendrerit aliquam. Enim at sed
-                in.Lorem ipsum dolor sit amet consectetur. Lectus at massa
-                cursus nisi dictum proin aliquet tellus pulvinar. Viverra et
-                elementum et porta aenean ac in quis fusce. Etiam lorem
-                elementum hendrerit aliquam. Enim at sed in.Lorem ipsum dolor
-                sit amet consectetur. Lectus at massa cursus nisi dictum proin
-                aliquet tellus pulvinar
+              GDG Ado-Ekiti's journey began in 2013, a pivotal year when a group of 
+              passionate individuals came together with a shared vision: to ignite a tech 
+              revolution in the heart of Ekiti state. What started as a small community of 
+              tech enthusiasts soon blossomed into a dynamic force for innovation, 
+              collaboration, and knowledge sharing. From its very inception, GDG Ado-Ekiti 
+              set its sights high, aiming not just to be a local tech group but a catalyst 
+              for change throughout Ekiti state and beyond.
               </p>
 
               <p data-aos="zoom-in-left">
-                Viverra et elementum et porta aenean ac in quis fusce. Etiam
-                lorem elementum hendrerit aliquam. Enim at sed in.Lorem ipsum
-                dolor sit amet consectetur. Lectus at massa cursus nisi dictum
-                proin aliquet tellus pulvinar. Viverra et elementum et porta
-                aenean ac in quis fusce. Etiam lorem elementum hendrerit
-                aliquam. Enim at sed in.Lorem ipsum dolor sit amet consectetur.
-                Lectus at massa cursus nisi dictum proin aliquet tellus
-                pulvinar. Viverra et elementum et porta aenean ac in quis fusce.
-                Etiam lorem elementum hendrerit aliquam. Enim at sed in.Lorem
-                ipsum dolor sit amet consectetur. Lectus at massa cursus nisi
-                dictum proin aliquet tellus pulvinar. Viverra et elementum et
-                porta aenean ac in quis fusce. Etiam lorem elementum hendrerit
-                aliquam. Enim at sed in.
+              Over the years, GDG Ado-Ekiti tirelessly worked to fulfil its mission, hosting 
+              a series of events, workshops, and meet-ups that brought together tech 
+              enthusiasts from all walks of life. Our dedication to promoting innovation, 
+              education, and community building soon caught the attention of neighbouring 
+              cities and institutions. One by one, nearby cities like Akure, Akoko, Oshogbo
+              soon became part of GDG Ado-Ekiti's extended network. Collaborations 
+              blossomed, and the collective impact grew. As our reputation for quality tech 
+              events spread, even prominent educational institutions in Ekiti state, such as 
+              FUOYE (Federal University Oye-Ekiti), EKSU (Ekiti State University), Fed Poly Ado (Federal Polytechnic Ado-Ekiti), and BOUESTI (Bamidele Olumilua 
+              University of Education, Science and Technology, Ikere-Ekiti) joined the movement.
               </p>
             </div>
           </div>
@@ -111,35 +102,26 @@ function Story() {
 
             <div className={styles.story_item_texts}>
               <p data-aos="zoom-in-left">
-                Lorem ipsum dolor sit amet consectetur. Lectus at massa cursus
-                nisi dictum proin aliquet tellus pulvinar. Viverra et elementum
-                et porta aenean ac in quis fusce. Etiam lorem elementum
-                hendrerit aliquam. Enim at sed in.Lorem ipsum dolor sit amet
-                consectetur. Lectus at massa cursus nisi dictum proin aliquet
-                tellus pulvinar. Viverra et elementum et porta aenean ac in quis
-                fusce. Etiam lorem elementum hendrerit aliquam. Enim at sed
-                in.Lorem ipsum dolor sit amet consectetur. Lectus at massa
-                cursus nisi dictum proin aliquet tellus pulvinar. Viverra et
-                elementum et porta aenean ac in quis fusce. Etiam lorem
-                elementum hendrerit aliquam. Enim at sed in.Lorem ipsum dolor
-                sit amet consectetur. Lectus at massa cursus nisi dictum proin
-                aliquet tellus pulvinar
+              DevFest is a community-led tech event hosted by Google Developer Groups 
+              (GDGs) worldwide. DevFest events focus on various aspects of technology, 
+              including software development, web technologies, mobile development, 
+              cloud computing, artificial intelligence, and more. These events typically 
+              feature keynote speakers, workshops, hands-on coding sessions, networking 
+              opportunities, and panel discussions. It aims to bring together developers, 
+              tech enthusiasts, professionals, students, and entrepreneurs to learn, share 
+              knowledge, and collaborate on innovative projects. 
               </p>
 
               <p data-aos="zoom-in-left">
-                Viverra et elementum et porta aenean ac in quis fusce. Etiam
-                lorem elementum hendrerit aliquam. Enim at sed in.Lorem ipsum
-                dolor sit amet consectetur. Lectus at massa cursus nisi dictum
-                proin aliquet tellus pulvinar. Viverra et elementum et porta
-                aenean ac in quis fusce. Etiam lorem elementum hendrerit
-                aliquam. Enim at sed in.Lorem ipsum dolor sit amet consectetur.
-                Lectus at massa cursus nisi dictum proin aliquet tellus
-                pulvinar. Viverra et elementum et porta aenean ac in quis fusce.
-                Etiam lorem elementum hendrerit aliquam. Enim at sed in.Lorem
-                ipsum dolor sit amet consectetur. Lectus at massa cursus nisi
-                dictum proin aliquet tellus pulvinar. Viverra et elementum et
-                porta aenean ac in quis fusce. Etiam lorem elementum hendrerit
-                aliquam. Enim at sed in.
+              DevFest represents an opportunity to magnify our impact and fulfil our 
+              commitment to Ekiti state. DevFest is more than just a conference; it is a celebration 
+              of innovation, a platform for skill development, and a testament 
+              to the potential of our local tech ecosystem. In Ekiti state, as in many regions,
+              the digital divide remains a significant challenge. By organising events like
+              DevFest, we aim to address this divide by fostering a culture of digital skills 
+              development, innovation, and entrepreneurship. Devfest serves as a beacon, 
+              guiding individuals towards a brighter future where technology is an enabler 
+              of progress, and local talent can thrive on a global stage.
               </p>
             </div>
 

@@ -21,6 +21,7 @@
   justify-content: space-around;
   margin-top: 150px;
   position: relative;
+  text-align: justify;
 }
 
 .story_item_image {
