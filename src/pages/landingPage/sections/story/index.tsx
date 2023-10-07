@@ -157,6 +157,7 @@ function Story() {
                 enabler of progress, and local talent can thrive on a global
                 stage.
               </p>
+
             </div>
 
             {isSmallViewport ? (

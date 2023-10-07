@@ -7,6 +7,7 @@ import Story from "./sections/story";
 import ThisYear from "./sections/thisYear";
 import Youtube from "./sections/youtube";
 import CountdownTimer from "./sections/countdown/CountdownTimer";
+import Twitter from "./sections/twitter";
 
 function LandingPage() {
   // Create a ref for the Pitch section
@@ -19,6 +20,7 @@ function LandingPage() {
       <Marquee />
       <Pitch />
       <Speakers />
+      <Twitter />
       <Youtube />
       <CountdownTimer />
     </LandingLayout>
