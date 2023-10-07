@@ -1,4 +1,3 @@
-import React from "react";
 import olaide from "../../../../assets/twitter/olaide.svg";
 import stont from "../../../../assets/twitter/stont-tweet.svg";
 import aynerd from "../../../../assets/twitter/aynerd-tweet.svg";

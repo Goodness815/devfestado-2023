@@ -33,7 +33,7 @@
 }
 
 .__ticker > ul {
-  width: fit-content;
+  width: mfit-content;
 
   will-change: transform;
 
