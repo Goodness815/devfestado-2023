@@ -20,7 +20,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 80%;
   margin-inline: auto;
   gap: 10px;
   max-width: 1440px;
@@ -36,7 +36,7 @@
 }
 .paragraph {
   color: var(--black);
-  max-width: 820px;
+  max-width: 850px;
   font-size: clamp(14px, 1vw, 16px);
   line-height: 30px;
 }

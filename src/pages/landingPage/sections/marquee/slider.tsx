@@ -1,18 +1,18 @@
 import styles from "./marquee.module.css";
 
-function Slider({ rotate }: { rotate: "7deg" | "-5deg" }) {
+function Slider({ rotate }: { rotate: "7deg" | "-16deg" }) {
   return (
     <div
       style={{
         background: "#F9AB00",
         transform: `rotate(${rotate})`,
-        marginInline: "-10px",
+        marginInline: "-5px",
         height: "86px",
       }}
       className={`${styles.marq1} ${styles.__ticker}`}
     >
       {Array.from({ length: 6 }, () => (
-        <ul key={Math.random()} style={{ display: "flex", gap: "20px" }}>
+        <ul key={Math.random()} style={{ display: "flex", gap: "10px" }}>
           {Array(10)
             .fill(0)
             .map((_, idx) => (
@@ -26,6 +26,15 @@ function Slider({ rotate }: { rotate: "7deg" | "-5deg" }) {
                 >
                   DevFest Ado-Ekiti 2023
                 </p>
+                <p
+                  style={{
+                    whiteSpace: "nowrap",
+                    fontWeight: 600,
+                    fontSize: "20px",
+                  }}
+                >
+                  GDG Ado-Ekiti @10                 
+                  </p>
                 <svg
                   width="29"
                   height="29"

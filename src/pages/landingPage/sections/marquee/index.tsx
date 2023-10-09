@@ -9,7 +9,7 @@ export const Marquee = () => {
         marginBlock: "7rem",
       }}
     >
-      <Slider rotate="-5deg" />
+      <Slider rotate="-16deg" />
       <Slider rotate="7deg" />
 
     </section>

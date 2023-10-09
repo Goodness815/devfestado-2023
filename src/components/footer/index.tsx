@@ -29,7 +29,13 @@ function Footer() {
             <p>Saturday, 4th November, 2023</p>
             <p>Ado-Ekiti, Ekiti State, Nigeria</p>
             <p>For enquiry, sponsorship or partnership</p>
+            <Link
+              className={styles.footer_mail}
+              target="__blank"
+              to="mailto:faith.oni@gdgadoekiti.dev"
+            >
             <p>Contact : faith.oni@gdgadoekiti.dev</p>
+            </Link>
           </div>
           <div className={styles.footer_inner_right}>
             <div
