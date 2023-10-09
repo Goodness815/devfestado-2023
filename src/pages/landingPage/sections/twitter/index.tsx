@@ -8,7 +8,7 @@ const Twitter = () => {
         display: "flex",
         flexDirection: "column",
         gap: "64px",
-        paddingBlock: "160px",
+        paddingBlock: "130px",
       }}
     >
       <h3
