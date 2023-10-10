@@ -35,10 +35,14 @@
   line-height: 10px;
 }
 .paragraph {
+  width: 100%;
+  margin-right: 220px;
   color: var(--black);
-  max-width: 850px;
+  max-width: 800px;
+  padding: 20px;
   font-size: clamp(14px, 1vw, 16px);
   line-height: 30px;
+
 }
 .button {
   background-color: var(--darkblue);
@@ -64,8 +68,9 @@
   background-color: var(--darkblue);
   color: var(--white);
   font-family: var(--font);
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
+  margin-left: 20px;
   cursor: pointer;
   transition: 0.5s ease;
   text-align: center;
@@ -80,10 +85,19 @@
     flex-direction: column;
   }
   .paragraph {
-    text-align: center;
+    text-align: justify;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 15px;
+    margin: 2px;
+    justify-content: center;
+    width: 100%;
+  }
+  .pitch{
+    margin-top: -80px;
   }
  
   .pitchImage {
-    width: 100%;
+    width: 120%;
   }
 }

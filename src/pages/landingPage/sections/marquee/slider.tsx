@@ -33,7 +33,7 @@ function Slider({ rotate }: { rotate: "7deg" | "-16deg" }) {
                     fontSize: "20px",
                   }}
                 >
-                  GDG Ado-Ekiti @10                 
+                  GDG Ado-Ekiti @ 10                 
                   </p>
                 <svg
                   width="29"

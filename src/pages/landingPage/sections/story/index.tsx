@@ -4,7 +4,8 @@ import storyImgLarge from "../../../../assets/pictures/story2.png";
 import aboutImgLarge from "../../../../assets/pictures/devfestabout.png";
 import Image from "../../../../components/images";
 import arrowDown from "../../../../assets/icons/thisyear.png";
-import arrowDown1 from "../../../../assets/icons/thisyear1.png";
+import arrowRight from "../../../../assets/icons/arrowright.png";
+import arrowMobile from "../../../../assets/icons/arrowmobile.png";
 import { useEffect, useState } from "react";
 
 function Story() {
@@ -41,15 +42,17 @@ function Story() {
           <div className={styles.story_item}>
             <img
               src={arrowDown}
-              className={styles.story_icon}
+              className={styles.story_icon2}
               alt="arrow icon"
             />
             {isSmallViewport ? (
-              <Image
+              <><Image
                 src={storyImgLarge}
                 color="#8AB4F8"
-                className={styles.story_item_image}
-              />
+                className={styles.story_item_image} /><img
+                  src={arrowMobile}
+                  className={styles.story_iconmobile}
+                  alt="arrow icon" /></>
             ) : (
               <Image
                 src={storyImg}
@@ -79,8 +82,9 @@ function Story() {
               events spread, even prominent educational institutions in Ekiti state, such as 
               FUOYE (Federal University Oye-Ekiti), EKSU (Ekiti State University), Fed Poly 
               Ado (Federal Polytechnic Ado-Ekiti), and BOUESTI (Bamidele Olumilua 
-              University of Education, Science and Technology, Ikere Ekiti) joined the movement
+              University of Education, Science and Technology, Ikere Ekiti) joined the movement.
               </p>
+              
             </div>
           </div>
         </div>
@@ -92,18 +96,22 @@ function Story() {
             data-aos-duration="2000"
             data-aos-anchor-placement="center-bottom"
           >
-            What Devfest is really about...
+            What DevFest is really about...
           </h1>
           <div
             className={`${styles.story_item} ${styles.story_item_responsive}`}
           >
             <img
-              src={arrowDown1}
+              src={arrowRight}
               className={`${styles.story_icon} ${styles.story_icon_2}`}
               alt="arrow icon"
             />
-
+            
             <div className={styles.story_item_texts}>
+            <img
+                  src={arrowMobile}
+                  className={styles.story_iconmobile2}
+                  alt="arrow icon" />
               <p data-aos="zoom-in-left">
               DevFest is a community-led tech event hosted by Google Developer Groups 
               (GDGs) worldwide. DevFest events focus on various aspects of technology, 
@@ -131,11 +139,10 @@ function Story() {
             </div>
 
             {isSmallViewport ? (
-              <Image
+              <><Image
                 src={aboutImgLarge}
                 color="#81C995"
-                className={styles.story_item_image}
-              />
+                className={styles.story_item_image} /></>
             ) : (
               <Image
                 src={aboutImgLarge}

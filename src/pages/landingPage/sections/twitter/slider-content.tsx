@@ -1,4 +1,5 @@
 import olaide from "../../../../assets/twitter/olaide.svg";
+import styles from "./twitter.module.css";
 import stont from "../../../../assets/twitter/stont-tweet.svg";
 import aynerd from "../../../../assets/twitter/aynerd-tweet.svg";
 import joy from "../../../../assets/twitter/joy-tweet.svg";
@@ -15,7 +16,7 @@ export const SliderContent = () => {
         gap: "27px",
         alignItems: "center",
       }}
-      className="div"
+      className={styles.__mar}
     >
       <div
         style={{

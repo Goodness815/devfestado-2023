@@ -55,3 +55,10 @@
     transform: translate(-100%);
   }
 }
+
+@media screen and (max-width: 999px) {
+  .__ticker {
+    margin-inline: 0;
+    max-width: 700px; /* You can set it to zero or any other value as needed */
+  }
+}

@@ -1,11 +1,14 @@
 .thisyear_container {
   display: flex;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
 .thisyear_inner {
   width: 90%;
+}
+.thisyear{
+  text-align: justify;
+  max-width: 900px;
 }
 .thisyear_inner > h1 {
   color: var(--grey);
@@ -52,7 +55,7 @@
 .thisyear_flex_right p {
   padding: 110px;
   color: var(--black);
-  text-align: right;
+  /* text-align: right; */
   font-family: var(--font);
   font-size: 18px;
   font-weight: 400;
@@ -65,6 +68,10 @@
   }
   .thisyear_flex {
     margin-top: 70px;
+  }
+  .thisyear{
+    text-align: justify;
+    font-size: 16px;
   }
   .thisyear_flex_left p,
   .thisyear_flex_right p {

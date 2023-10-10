@@ -6,7 +6,7 @@ export const Marquee = () => {
       style={{
         display: "flex",
         flexDirection: "column",
-        marginBlock: "7rem",
+        marginBlock: "2rem",
       }}
     >
       <Slider rotate="-16deg" />

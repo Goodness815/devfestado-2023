@@ -4,7 +4,7 @@ function Youtube() {
   return (
     <div className={styles.youtube_container}>
       <div className={styles.youtube_inner}>
-        <h1>Here’s a Sneak Peek of Devfest 2022</h1>
+        <h1>Here’s a Sneak Peek of DevFest 2022</h1>
         <iframe
           width="90%"
           height="80%"

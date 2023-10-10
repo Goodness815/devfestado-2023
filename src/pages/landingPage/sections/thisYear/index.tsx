@@ -41,9 +41,8 @@ const ThisYear = () => {
             <RightSwirlArrow className={styles.thisyear_flex_left_icon} />
           </div>
           <div className={styles.thisyear_flex_right}>
-            <p data-aos="fade-left" data-aos-duration="2000">
-              We are super excited that our amazing community, GDG Ado-Ekiti is
-              10 years old... <br />
+            <p data-aos="fade-left" data-aos-duration="2000" className={styles.thisyear} >
+              We are super excited that our amazing community, GDG Ado-Ekiti is <b>10 years old...</b> <br/>
               <b>
                 <ScrollLink
                   to="story"
