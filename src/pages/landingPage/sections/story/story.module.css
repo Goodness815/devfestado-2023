@@ -57,8 +57,14 @@
   top: -100px;
 }
 @media screen and (min-width: 1025px){
-  .story_iconmobile{
+  .story_iconmobile2{
     display: none;
+  }
+  .story_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10%;
   }
   
 }

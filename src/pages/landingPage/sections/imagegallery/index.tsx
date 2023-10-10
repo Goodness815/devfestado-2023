@@ -1,5 +1,5 @@
 import styles from "./imagegallery.module.css";
-import storyImg from "../../../../assets/pictures/slice 1.png";
+import storyImg from "../../../../assets/pictures/Slice 1.png";
 
 function ImageGallery() {
 
