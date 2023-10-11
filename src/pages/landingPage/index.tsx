@@ -21,7 +21,7 @@ function LandingPage() {
       <Marquee />
       <ImageGallery/>
       <Pitch />
-      <Speakers />
+      {/* <Speakers /> */}
       <Twitter />
       <Youtube />
       <CountdownTimer />
