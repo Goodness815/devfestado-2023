@@ -4,37 +4,47 @@ function Slider({ rotate }: { rotate: "7deg" | "-16deg" }) {
   return (
     <div
       style={{
-        background: "#F9AB00",
+        background: '#F9AB00',
         transform: `rotate(${rotate})`,
-        marginInline: "-5px",
-        height: "86px",
+        marginInline: '-5px',
+        height: '86px',
       }}
       className={`${styles.marq1} ${styles.__ticker}`}
     >
       {Array.from({ length: 6 }, () => (
-        <ul key={Math.random()} style={{ display: "flex", gap: "10px" }}>
+        <ul key={Math.random()} style={{ display: 'flex', gap: '10px' }}>
           {Array(10)
             .fill(0)
             .map((_, idx) => (
               <li className={styles.marquee} key={idx}>
                 <p
                   style={{
-                    whiteSpace: "nowrap",
+                    whiteSpace: 'nowrap',
                     fontWeight: 600,
-                    fontSize: "20px",
+                    fontSize: '20px',
                   }}
                 >
                   DevFest Ado-Ekiti 2023
                 </p>
                 <p
                   style={{
-                    whiteSpace: "nowrap",
+                    whiteSpace: 'nowrap',
                     fontWeight: 600,
-                    fontSize: "20px",
+                    fontSize: '20px',
                   }}
                 >
-                  GDG Ado-Ekiti @ 10                 
-                  </p>
+                  GDG Ado-Ekiti @ 10
+                </p>
+
+                <p
+                  style={{
+                    whiteSpace: 'nowrap',
+                    fontWeight: 600,
+                    fontSize: '20px',
+                  }}
+                >
+                  November 4th, 2023
+                </p>
                 <svg
                   width="29"
                   height="29"
