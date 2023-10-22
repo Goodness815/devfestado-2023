@@ -1,13 +1,16 @@
-.container {
+.pitch_container {
   background: var(--lightyellow);
-  padding-block: 6.25rem;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 32px;
+  justify-content: center;
+  padding: 4rem 0;
 }
-.pitch {
+
+.pitch_inner {
+  width: 90%;
+}
+
+.pitch_header {
   font-family: var(--font);
   font-size: clamp(21.33px, 3.125vw, 50.52px);
   font-weight: 700;
