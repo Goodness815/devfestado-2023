@@ -35,6 +35,7 @@ function Slider({ rotate }: { rotate: "7deg" | "-16deg" }) {
                 >
                   GDG Ado-Ekiti @ 10
                 </p>
+
                 <p
                   style={{
                     whiteSpace: 'nowrap',
@@ -42,7 +43,7 @@ function Slider({ rotate }: { rotate: "7deg" | "-16deg" }) {
                     fontSize: '20px',
                   }}
                 >
-                  
+                  November 4th, 2023
                 </p>
                 <svg
                   width="29"

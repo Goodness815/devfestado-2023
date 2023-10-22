@@ -16,7 +16,7 @@
   justify-content: center;
 }
 .showcase_inner h1 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--black);
   text-align: center;
   font-size: 60px;
@@ -107,11 +107,11 @@
   .cup_icon {
     top: 100px;
   }
-  
+
   .world_icon {
     top: 100px;
   }
-  
+
   .people_icon {
     bottom: -30px;
     width: 20%;
@@ -147,19 +147,15 @@
     bottom: 20px;
     width: 23%;
   }
-  .arrow_icon {
-    width: 8%;
-    right: 15%;
-  }
-  .next_icon {
-    left: 8%;
-    top: 42%;
-    width: 7%;
+  .arrow_icon,
+  .next_icon,
+  .kite_icon {
+    display: none;
   }
 }
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
   .showcase_container {
     min-height: 60vh;
   }
-}
+} */
