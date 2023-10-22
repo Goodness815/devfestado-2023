@@ -1,12 +1,11 @@
-import styles from "./story.module.css";
-import storyImg from "../../../../assets/pictures/story.webp";
-import storyImgLarge from "../../../../assets/pictures/story2.png";
-import aboutImgLarge from "../../../../assets/pictures/devfestabout.png";
-import Image from "../../../../components/images";
-import arrowDown from "../../../../assets/icons/thisyear.png";
-import arrowRight from "../../../../assets/icons/arrowright.png";
-import arrowMobile from "../../../../assets/icons/arrowmobile.png";
-import { useEffect, useState } from "react";
+import styles from './story.module.css';
+import storyImg from '../../../../assets/pictures/story.webp';
+import storyImgLarge from '../../../../assets/pictures/story2.png';
+import aboutImgLarge from '../../../../assets/pictures/devfestabout.png';
+import Image from '../../../../components/images';
+import arrowDown from '../../../../assets/icons/thisyear.png';
+import arrowRight from '../../../../assets/icons/arrowright.png';
+import { useEffect, useState } from 'react';
 
 function Story() {
   const [isSmallViewport, setIsSmallViewport] = useState(false);
@@ -20,11 +19,11 @@ function Story() {
     handleResize();
 
     // Add event listener for window resize
-    window.addEventListener("resize", handleResize);
+    window.addEventListener('resize', handleResize);
 
     // Cleanup by removing the event listener when the component unmounts
     return () => {
-      window.removeEventListener("resize", handleResize);
+      window.removeEventListener('resize', handleResize);
     };
   }, []);
 
@@ -46,13 +45,18 @@ function Story() {
               alt="arrow icon"
             />
             {isSmallViewport ? (
-              <><Image
-                src={storyImgLarge}
-                color="#8AB4F8"
-                className={styles.story_item_image} /><img
+              <>
+                <Image
+                  src={storyImgLarge}
+                  color="#8AB4F8"
+                  className={styles.story_item_image}
+                />
+                {/* <img
                   src={arrowMobile}
                   className={styles.story_iconmobile}
-                  alt="arrow icon" /></>
+                  alt="arrow icon"
+                /> */}
+              </>
             ) : (
               <Image
                 src={storyImg}
@@ -62,29 +66,32 @@ function Story() {
             )}
             <div className={styles.story_item_texts}>
               <p data-aos="zoom-in-left">
-              GDG Ado-Ekiti's journey began in 2013, a pivotal year when a group of passionate 
-              individuals came together with a shared vision: to ignite a tech 
-              revolution in the heart of Ekiti state. What started as a small community of 
-              tech enthusiasts soon blossomed into a dynamic force for innovation, 
-              collaboration, and knowledge sharing. From its very inception, GDG Ado-Ekiti 
-              set its sights high, aiming not just to be a local tech group but a catalyst 
-              for change throughout Ekiti state and beyond.
+                GDG Ado-Ekiti's journey began in 2013, a pivotal year when a
+                group of passionate individuals came together with a shared
+                vision: to ignite a tech revolution in the heart of Ekiti state.
+                What started as a small community of tech enthusiasts soon
+                blossomed into a dynamic force for innovation, collaboration,
+                and knowledge sharing. From its very inception, GDG Ado-Ekiti
+                set its sights high, aiming not just to be a local tech group
+                but a catalyst for change throughout Ekiti state and beyond.
               </p>
 
               <p data-aos="zoom-in-left">
-              Over the years, GDG Ado-Ekiti tirelessly worked to fulfil its mission, hosting 
-              a series of events, workshops, and meet-ups that brought together tech 
-              enthusiasts from all walks of life. Our dedication to promoting innovation, 
-              education, and community building soon caught the attention of neighbouring 
-              cities and institutions. One by one, nearby cities like Akure, Akoko, Oshogbo 
-              soon became part of GDG Ado-Ekiti's extended network. Collaborations 
-              blossomed, and the collective impact grew. As our reputation for quality tech 
-              events spread, even prominent educational institutions in Ekiti state, such as 
-              FUOYE (Federal University Oye-Ekiti), EKSU (Ekiti State University), Fed Poly 
-              Ado (Federal Polytechnic Ado-Ekiti), and BOUESTI (Bamidele Olumilua 
-              University of Education, Science and Technology, Ikere Ekiti) joined the movement.
+                Over the years, GDG Ado-Ekiti tirelessly worked to fulfil its
+                mission, hosting a series of events, workshops, and meet-ups
+                that brought together tech enthusiasts from all walks of life.
+                Our dedication to promoting innovation, education, and community
+                building soon caught the attention of neighbouring cities and
+                institutions. One by one, nearby cities like Akure, Akoko,
+                Oshogbo soon became part of GDG Ado-Ekiti's extended network.
+                Collaborations blossomed, and the collective impact grew. As our
+                reputation for quality tech events spread, even prominent
+                educational institutions in Ekiti state, such as FUOYE (Federal
+                University Oye-Ekiti), EKSU (Ekiti State University), Fed Poly
+                Ado (Federal Polytechnic Ado-Ekiti), and BOUESTI (Bamidele
+                Olumilua University of Education, Science and Technology, Ikere
+                Ekiti) joined the movement.
               </p>
-              
             </div>
           </div>
         </div>
@@ -106,48 +113,49 @@ function Story() {
               className={`${styles.story_icon} ${styles.story_icon_2}`}
               alt="arrow icon"
             />
-            
+
             <div className={styles.story_item_texts}>
-            <img
-                  src={arrowMobile}
-                  className={styles.story_iconmobile2}
-                  alt="arrow icon" />
               <p data-aos="zoom-in-left">
-              DevFest is a community-led tech event hosted by Google Developer Groups 
-              (GDGs) worldwide. DevFest events focus on various aspects of technology, 
-              including software development, web technologies, mobile development, 
-              cloud computing, artificial intelligence, and more. These events typically 
-              feature keynote speakers, workshops, hands-on coding sessions, networking 
-              opportunities, and panel discussions. It aims to bring together developers, 
-              tech enthusiasts, professionals, students, and entrepreneurs to learn, share 
-              knowledge, and collaborate on innovative projects. 
-
+                DevFest is a community-led tech event hosted by Google Developer
+                Groups (GDGs) worldwide. DevFest events focus on various aspects
+                of technology, including software development, web technologies,
+                mobile development, cloud computing, artificial intelligence,
+                and more. These events typically feature keynote speakers,
+                workshops, hands-on coding sessions, networking opportunities,
+                and panel discussions. It aims to bring together developers,
+                tech enthusiasts, professionals, students, and entrepreneurs to
+                learn, share knowledge, and collaborate on innovative projects.
               </p>
 
               <p data-aos="zoom-in-left">
-              DevFest represents an opportunity to magnify our impact and fulfil our 
-              commitment to Ekiti state. DevFest is more than just a conference; it is a 
-              celebration of innovation, a platform for skill development, and a testament 
-              to the potential of our local tech ecosystem. In Ekiti state, as in many regions, 
-              the digital divide remains a significant challenge. By organising events like 
-              DevFest, we aim to address this divide by fostering a culture of digital skills 
-              development, innovation, and entrepreneurship. Devfest serves as a beacon, 
-              guiding individuals towards a brighter future where technology is an enabler 
-              of progress, and local talent can thrive on a global stage.
+                DevFest represents an opportunity to magnify our impact and
+                fulfil our commitment to Ekiti state. DevFest is more than just
+                a conference; it is a celebration of innovation, a platform for
+                skill development, and a testament to the potential of our local
+                tech ecosystem. In Ekiti state, as in many regions, the digital
+                divide remains a significant challenge. By organising events
+                like DevFest, we aim to address this divide by fostering a
+                culture of digital skills development, innovation, and
+                entrepreneurship. Devfest serves as a beacon, guiding
+                individuals towards a brighter future where technology is an
+                enabler of progress, and local talent can thrive on a global
+                stage.
               </p>
-
             </div>
 
             {isSmallViewport ? (
-              <><Image
-                src={aboutImgLarge}
-                color="#81C995"
-                className={styles.story_item_image} /></>
+              <>
+                <Image
+                  src={aboutImgLarge}
+                  color="#81C995"
+                  className={styles.story_item_image}
+                />
+              </>
             ) : (
               <Image
                 src={aboutImgLarge}
                 color="#81C995"
-                className={styles.story_item_image}
+                className={`${styles.story_item_image}`}
               />
             )}
           </div>
