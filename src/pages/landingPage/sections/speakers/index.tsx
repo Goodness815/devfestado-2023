@@ -1,5 +1,5 @@
-import styles from "./speakers.module.css";
-import speaker from "../../../../assets/speakers/speaker-img.svg";
+import styles from './speakers.module.css';
+import speaker from '../../../../assets/speakers/speaker-img.svg';
 import {
   Fedex,
   Flutter,
@@ -8,7 +8,7 @@ import {
   Sc,
   Cowrywise,
   Ship,
-} from "./images/images";
+} from './images/images';
 
 const allSpeakers = [
   {
@@ -17,78 +17,78 @@ const allSpeakers = [
         src={speaker}
         alt="js"
         style={{
-          maxWidth: "100%",
+          maxWidth: '100%',
         }}
       />
     ),
-    name: "First name & Last Name",
-    title: "Title/Name of Company",
-    role: "Speaker",
+    name: 'First name & Last Name',
+    title: 'Title/Name of Company',
+    role: 'Speaker',
   },
   {
     img: (
       <img
         src={speaker}
         style={{
-          maxWidth: "100%",
+          maxWidth: '100%',
         }}
       />
     ),
-    name: "First name & Last Name",
-    title: "Title/Name of Company",
-    role: "Speaker",
+    name: 'First name & Last Name',
+    title: 'Title/Name of Company',
+    role: 'Speaker',
   },
   {
     img: (
       <img
         src={speaker}
         style={{
-          maxWidth: "100%",
+          maxWidth: '100%',
         }}
       />
     ),
-    name: "First name & Last Name",
-    title: "Title/Name of Company",
-    role: "Speaker",
+    name: 'First name & Last Name',
+    title: 'Title/Name of Company',
+    role: 'Speaker',
   },
   {
     img: (
       <img
         src={speaker}
         style={{
-          maxWidth: "100%",
+          maxWidth: '100%',
         }}
       />
     ),
-    name: "First name & Last Name",
-    title: "Title/Name of Company",
-    role: "Speaker",
+    name: 'First name & Last Name',
+    title: 'Title/Name of Company',
+    role: 'Speaker',
   },
   {
     img: (
       <img
         src={speaker}
         style={{
-          maxWidth: "100%",
+          maxWidth: '100%',
         }}
       />
     ),
-    name: "First name & Last Name",
-    title: "Title/Name of Company",
-    role: "Speaker",
+    name: 'First name & Last Name',
+    title: 'Title/Name of Company',
+    role: 'Speaker',
   },
   {
     img: (
       <img
         src={speaker}
         style={{
-          maxWidth: "100%",
+          maxWidth: '100%',
         }}
       />
     ),
-    name: "First name & Last Name",
-    title: "Title/Name of Company",
-    role: "Speaker",
+    name: 'First name & Last Name',
+    title: 'Title/Name of Company',
+    role: 'Speaker',
   },
 ];
 
@@ -110,7 +110,7 @@ function Speakers() {
             <div className={styles.speaker} key={idx}>
               <div>{item.img}</div>
 
-              <div style={{ display: "flex", flexDirection: "column" }}>
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
                 <h3 className={styles.h3}>{item.name}</h3>
                 <p className={styles.p}>{item.title}</p>
                 <small className={styles.small}>{item.role}</small>
@@ -128,7 +128,7 @@ function Speakers() {
             <div key={index}>{item}</div>
           ))}
         </div>
-        <Ship />
+        <Ship className={styles.ship} />
       </section>
     </>
   );

@@ -7,7 +7,7 @@
   background: var(--white);
   box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.1);
   position: fixed;
-  z-index: 2;
+  z-index: 10;
 }
 .navbar_inner {
   display: flex;
@@ -46,7 +46,7 @@
   height: 100vh; /* 100% Full-height */
   width: 100%; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
-  z-index: 5; /* Stay on top */
+  z-index: 15; /* Stay on top */
   top: 0; /* Stay at the top */
   bottom: 0;
   left: 0;

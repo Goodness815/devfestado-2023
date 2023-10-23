@@ -30,7 +30,7 @@ function Navbar() {
             <Link to="https://bit.ly/devfestado23callforpartners">
               Partner with us
             </Link>
-            <Link to="https://bit.ly/adocfs23">Get Swags</Link>
+            <Link to="https://shop.devfestadoekiti.com/">Get Swags</Link>
           </div>
           <div>
             <RegularButton
@@ -50,7 +50,7 @@ function Navbar() {
 
       <div
         className={`${styles.sidenav} ${
-          isNavOpen ? `${styles.sidenav_show}` : ""
+          isNavOpen ? `${styles.sidenav_show}` : ''
         }`}
       >
         <div className={styles.sidenav_inner}>
@@ -68,7 +68,7 @@ function Navbar() {
           <Link to="https://bit.ly/devfestado23callforpartners">
             Partner with us
           </Link>
-          <Link to="https://bit.ly/adocfs23">Get Swags</Link>
+          <Link to="https://shop.devfestadoekiti.com/">Get Swags</Link>
           <RegularButton
             title="Register Here"
             className={styles.sidebar_button}

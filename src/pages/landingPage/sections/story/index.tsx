@@ -71,9 +71,7 @@ function Story() {
                 vision: to ignite a tech revolution in the heart of Ekiti state.
                 What started as a small community of tech enthusiasts soon
                 blossomed into a dynamic force for innovation, collaboration,
-                and knowledge sharing. From its very inception, GDG Ado-Ekiti
-                set its sights high, aiming not just to be a local tech group
-                but a catalyst for change throughout Ekiti state and beyond.
+                and knowledge sharing.
               </p>
 
               <p data-aos="zoom-in-left">
@@ -82,15 +80,13 @@ function Story() {
                 that brought together tech enthusiasts from all walks of life.
                 Our dedication to promoting innovation, education, and community
                 building soon caught the attention of neighbouring cities and
-                institutions. One by one, nearby cities like Akure, Akoko,
-                Oshogbo soon became part of GDG Ado-Ekiti's extended network.
-                Collaborations blossomed, and the collective impact grew. As our
-                reputation for quality tech events spread, even prominent
-                educational institutions in Ekiti state, such as FUOYE (Federal
-                University Oye-Ekiti), EKSU (Ekiti State University), Fed Poly
-                Ado (Federal Polytechnic Ado-Ekiti), and BOUESTI (Bamidele
-                Olumilua University of Education, Science and Technology, Ikere
-                Ekiti) joined the movement.
+                institutions. Collaborations blossomed, and our reputation for
+                quality tech events spread, even prominent educational
+                institutions in Ekiti state, such as FUOYE (Federal University
+                Oye-Ekiti), EKSU (Ekiti State University), Fed Poly Ado (Federal
+                Polytechnic Ado-Ekiti), and BOUESTI (Bamidele Olumilua
+                University of Education, Science and Technology, Ikere-Ekiti)
+                joined the movement.
               </p>
             </div>
           </div>
@@ -132,14 +128,9 @@ function Story() {
                 fulfil our commitment to Ekiti state. DevFest is more than just
                 a conference; it is a celebration of innovation, a platform for
                 skill development, and a testament to the potential of our local
-                tech ecosystem. In Ekiti state, as in many regions, the digital
-                divide remains a significant challenge. By organising events
-                like DevFest, we aim to address this divide by fostering a
-                culture of digital skills development, innovation, and
-                entrepreneurship. Devfest serves as a beacon, guiding
-                individuals towards a brighter future where technology is an
-                enabler of progress, and local talent can thrive on a global
-                stage.
+                tech ecosystem. By organising events like DevFest, we aim to
+                address the digital divide by fostering a culture of digital
+                skills development, innovation, and entrepreneurship.
               </p>
             </div>
 

@@ -28,6 +28,7 @@
 
 .story_item_image {
   width: 45% !important;
+  width: 45% !important;
   
 }
 
@@ -50,7 +51,7 @@
 .story_icon2 {
   position: absolute;
   top: -100px;
-  right: 45%;
+  right: 42%;
   width: 200px;
 }
 .story_icon_2 {
