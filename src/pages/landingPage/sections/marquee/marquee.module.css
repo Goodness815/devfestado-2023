@@ -88,4 +88,7 @@
     width: 15px;
     height: 15px;
   }
+  .__ticker {
+    --ticker-duration: 50s;
+  }
 }
