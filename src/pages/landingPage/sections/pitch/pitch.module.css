@@ -12,12 +12,12 @@
 
 .pitch_header {
   font-family: var(--font);
-  font-size: clamp(21.33px, 3.125vw, 50.52px);
+  font-size: clamp(21.33px, 3.125vw, 45.52px);
   font-weight: 700;
   color: var(--black);
-  max-width: 700px;
   text-align: center;
   line-height: normal;
+  margin-bottom: 25px;
 }
 .content_div {
   display: flex;
@@ -31,21 +31,23 @@
 .text_div {
   display: flex;
   flex-direction: column;
-  gap: 35px;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
 }
-.heading3{
+.heading3 {
   color: var(--grey);
   line-height: 10px;
+  /* text-align: center; */
 }
 .paragraph {
   width: 100%;
-  margin-right: 220px;
+  margin-right: 200px;
   color: var(--black);
   max-width: 800px;
-  padding: 20px;
   font-size: clamp(14px, 1vw, 16px);
-  line-height: 30px;
-
+  line-height: 25px;
+  margin-top: 20px;
 }
 .button {
   background-color: var(--darkblue);
@@ -71,12 +73,12 @@
   background-color: var(--darkblue);
   color: var(--white);
   font-family: var(--font);
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
-  margin-left: 20px;
   cursor: pointer;
   transition: 0.5s ease;
   text-align: center;
+  margin-top: 20px;
 }
 .regularButton:hover {
   background-color: var(--black);
@@ -86,21 +88,27 @@
 @media screen and (max-width: 700px) {
   .content_div {
     flex-direction: column;
+    width: 95%;
   }
   .paragraph {
     text-align: justify;
     line-height: 20px;
     font-size: 14px;
-    padding: 15px;
-    margin: 2px;
+    padding: 0px;
+    margin-top: 10px;
     justify-content: center;
     width: 100%;
   }
-  .pitch{
+  .regularButton{
+    margin-top: 10px;
+  }
+  .pitch {
     margin-top: -80px;
   }
- 
+  .text_div {
+    padding: 0px;
+  }
   .pitchImage {
-    width: 120%;
+    width: 100%;
   }
 }

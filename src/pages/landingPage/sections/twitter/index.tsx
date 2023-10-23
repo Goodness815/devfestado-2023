@@ -4,11 +4,11 @@ import { SliderContent } from "./slider-content";
 const Twitter = () => {
   return (
     <section
+      className={styles.__markCase}
       style={{
         display: "flex",
         flexDirection: "column",
         gap: "64px",
-        paddingBlock: "130px",
       }}
     >
       <h3
@@ -23,7 +23,7 @@ const Twitter = () => {
       <div
         style={{
           background: "#4285F4",
-          paddingBlock: "40px",
+          paddingBlock: "20px",
           display: "flex",
           gap: "20px",
           justifyContent: "center",

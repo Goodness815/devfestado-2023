@@ -27,19 +27,19 @@
 }
 
 .story_item_image {
-  width: 43% !important;
+  width: 45% !important;
   
 }
 
 .story_item_texts {
-  width: 40% !important;
+  width: 48% !important;
 }
 
 .story_item_texts p {
   font-family: var(--font);
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 30px;
   margin: 30px 0px;
 }
 .story_icon {
