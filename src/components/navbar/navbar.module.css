@@ -46,7 +46,7 @@
   height: 100vh; /* 100% Full-height */
   width: 100%; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
-  z-index: 5; /* Stay on top */
+  z-index: 15; /* Stay on top */
   top: 0; /* Stay at the top */
   bottom: 0;
   left: 0;
