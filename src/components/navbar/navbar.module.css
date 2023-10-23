@@ -7,7 +7,7 @@
   background: var(--white);
   box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.1);
   position: fixed;
-  z-index: 2;
+  z-index: 10;
 }
 .navbar_inner {
   display: flex;

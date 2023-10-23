@@ -87,7 +87,8 @@
 
 @media screen and (max-width: 999px) {
   .showcase_container {
-    min-height: 65vh;
+    min-height: 80vh;
+    padding-bottom: 30px;
   }
   .showcase_inner h1 {
     font-size: 40px;
@@ -113,7 +114,7 @@
   }
 
   .people_icon {
-    bottom: -30px;
+    bottom: -20px;
     width: 20%;
   }
   .showcase_icon {
@@ -129,11 +130,18 @@
 }
 
 @media screen and (max-width: 600px) {
+  .showcase_container {
+    height: auto;
+    padding-bottom: 60px;
+  }
+
   .showcase_inner h1 {
-    font-size: 33px;
+    font-size: 50px;
+    line-height: 61px;
   }
   .showcase_inner p {
-    font-size: 12px;
+    font-size: 16px;
+    line-height: 25px;
     margin-top: 10px;
   }
 
@@ -143,8 +151,19 @@
     padding: 10px 20px;
     margin-top: 10px;
   }
+
+  .cup_icon {
+    left: -10px
+  }
+
+  .world_icon {
+    right: -10px
+  }
+
   .people_icon {
-    bottom: 20px;
+    right: -30px;
+    left: auto;
+    bottom: 60px;
     width: 23%;
   }
   .arrow_icon,

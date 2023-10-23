@@ -7,6 +7,7 @@ export const Marquee = () => {
         display: "flex",
         flexDirection: "column",
         marginBlock: "2rem",
+        position: "relative"
       }}
     >
       <Slider rotate="-16deg" />

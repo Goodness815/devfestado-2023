@@ -21,7 +21,12 @@ const ThisYear = () => {
         <div className={styles.thisyear_flex}>
           <div className={styles.thisyear_flex_left}>
             <Image src={thisyear1} color="red" />
-            <p data-aos="fade-right" data-aos-duration="3000">
+            {/* Desktop Text */}
+            <p
+              data-aos="fade-right"
+              className={styles.desktop_text}
+              data-aos-duration="3000"
+            >
               It's another time of the year, when we gather together for Devfest
               in Ado-Ekiti... <br />{' '}
               <div>
@@ -41,14 +46,40 @@ const ThisYear = () => {
                 </b>
               </div>
             </p>
+            {/* Mobile Text */}
+            <p
+              data-aos="fade-left"
+              data-aos-duration="2000"
+              className={`${styles.thisyear} ${styles.mobile_text}`}
+            >
+              We are super excited that our amazing community, GDG Ado-Ekiti is{' '}
+              <b>10 years old...</b> <br />
+              <div className={styles.read_more}>
+                <b>
+                  <ScrollLink
+                    to="story"
+                    spy={true}
+                    smooth={true}
+                    offset={-50} // Adjust the offset as needed to account for any fixed header
+                    duration={500}
+                    style={{
+                      cursor: 'pointer',
+                    }}
+                  >
+                    Read More
+                  </ScrollLink>
+                </b>
+              </div>
+            </p>
             <img src={icon} className={styles.flex_icon} alt="" />
             <RightSwirlArrow className={styles.thisyear_flex_left_icon} />
           </div>
           <div className={styles.thisyear_flex_right}>
+            {/* Desktop Text */}
             <p
               data-aos="fade-left"
               data-aos-duration="2000"
-              className={styles.thisyear}
+              className={`${styles.thisyear} ${styles.desktop_text}`}
             >
               We are super excited that our amazing community, GDG Ado-Ekiti is{' '}
               <b>10 years old...</b> <br />
@@ -56,6 +87,31 @@ const ThisYear = () => {
                 <b>
                   <ScrollLink
                     to="story"
+                    spy={true}
+                    smooth={true}
+                    offset={-50} // Adjust the offset as needed to account for any fixed header
+                    duration={500}
+                    style={{
+                      cursor: 'pointer',
+                    }}
+                  >
+                    Read More
+                  </ScrollLink>
+                </b>
+              </div>
+            </p>
+            {/* Mobile Text */}
+            <p
+              data-aos="fade-right"
+              className={styles.mobile_text}
+              data-aos-duration="3000"
+            >
+              It's another time of the year, when we gather together for Devfest
+              in Ado-Ekiti... <br />{' '}
+              <div className={styles.read_more}>
+                <b>
+                  <ScrollLink
+                    to="about"
                     spy={true}
                     smooth={true}
                     offset={-50} // Adjust the offset as needed to account for any fixed header
