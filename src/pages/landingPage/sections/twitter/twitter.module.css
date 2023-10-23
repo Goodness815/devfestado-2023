@@ -25,5 +25,21 @@
     transform: translate(-100%);
   }
 }
-
-
+.__markCase {
+  padding-block: 100px;
+}
+.__markCase h3 {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 500px) {
+  .__markCase h3 {
+    margin-bottom: 0px;
+  }
+  .__mar img {
+    width: 300px;
+  }
+  .__markCase {
+    padding-block: 60px;
+    gap: 30px !important;
+  }
+}

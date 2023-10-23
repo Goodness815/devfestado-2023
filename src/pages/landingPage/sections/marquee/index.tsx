@@ -1,5 +1,5 @@
 import Slider from "./slider";
-
+import styles from "./marquee.module.css";
 export const Marquee = () => {
   return (
     <section
@@ -10,9 +10,8 @@ export const Marquee = () => {
         position: "relative"
       }}
     >
-      <Slider rotate="-16deg" />
-      <Slider rotate="7deg" />
-
+      <Slider rotate={styles.right} />
+      <Slider rotate={styles.left} />
     </section>
   );
 };

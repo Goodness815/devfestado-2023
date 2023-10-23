@@ -1,5 +1,6 @@
-import styles from './pitch.module.css';
-import pitchImg from '../../../../assets/pitch/pitch-image.svg';
+import styles from "./pitch.module.css";
+import pitchImg from "../../../../assets/pitch/pitch-image.svg";
+import { RegularButton } from "../../../../components/buttons";
 
 export const Pitch = () => {
   return (
@@ -31,11 +32,11 @@ export const Pitch = () => {
               exciting ideas!
             </p>
 
-            <a href="https://bit.ly/devfestado23ideapitch" target="__blank">
-              <button className={styles.regularButton}>
-                Click here to get started
-              </button>
-            </a>
+            <RegularButton
+              title="Click here to get started"
+              className={styles.regularButton}
+              url="https://bit.ly/devfestado23ideapitch"
+            />
           </div>
         </div>
       </div>

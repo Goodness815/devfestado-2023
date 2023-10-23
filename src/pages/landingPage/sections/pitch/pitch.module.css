@@ -4,21 +4,21 @@
   align-items: center;
   justify-content: center;
   padding: 4rem 0;
+  margin-top: 10rem;
 }
 
 .pitch_inner {
-  width: 90%;
+  width: 80%;
 }
 
 .pitch_header {
   font-family: var(--font);
-  font-size: clamp(21.33px, 3.125vw, 50.52px);
+  font-size: clamp(21.33px, 3.125vw, 45.52px);
   font-weight: 700;
   color: var(--black);
-  max-width: 700px;
-  margin: 0 auto;
   text-align: center;
   line-height: normal;
+  margin-bottom: 25px;
 }
 
 .content_div {
@@ -42,59 +42,92 @@
 .text_div {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  width: 50%;
 }
 .heading3 {
   color: var(--grey);
   line-height: 10px;
+  /* text-align: center; */
 }
 .paragraph {
-  font-size: 16px;
-  color: var(--black);
-  line-height: 27px;
-}
-
-.regularButton {
-  border: none;
-  border-radius: 28px;
-  padding: 15px 20px;
-  background-color: var(--darkblue);
-  color: var(--white);
+  width: 100%;
   font-family: var(--font);
-  font-size: 18px;
-  font-weight: 700;
-  cursor: pointer;
-  transition: 0.5s ease;
-  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 28px; /* 168.75% */
+  margin-top: 20px;
+  text-align: justify;
+}
+.button {
+  background-color: var(--darkblue);
+  color: white;
+  border-radius: 25px;
+  padding-inline: 24px;
+  padding-block: 19px;
+  font-size: clamp(14px, 1vw, 16px);
+  outline: none;
+  border: none;
+  align-self: self-start;
+}
+.button:hover {
+  background: var(--black);
+}
+.pitchImage {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.regularButton {
+  margin-top: 20px;
 }
 
-.regularButton:hover {
-  background-color: var(--black);
-  color: var(--white);
-}
-
-@media screen and (max-width: 600px) {
-  .pitch_container {
-    padding: 3rem 0;
+@media screen and (max-width: 1000px) {
+  .pitch_inner {
+    width: 90%;
   }
-
+  .paragraph {
+    font-size: 1rem;
+  }
+  .pitch_container {
+    margin-top: 7rem;
+  }
+}
+@media screen and (max-width: 950px) {
   .content_div {
     margin-top: 2rem;
     flex-direction: column;
+    width: 95%;
+    gap: 20px;
   }
-
-  .paragraph {
-    font-size: 14px;
-    line-height: 22px;
+  .img_div {
+    width: 70%;
   }
-
-  .img_div,
   .text_div {
+    width: 70%;
+    padding: 0;
+  }
+  .pitch_container {
+    margin-top: 5rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .content_div {
+    margin-top: 2rem;
+    gap: 20px;
     width: 100%;
   }
-
-  .regularButton {
-    font-size: 16px;
-    padding: 15px;
+  .img_div {
+    width: 95%;
+  }
+  .text_div {
+    width: 95%;
+  }
+  .paragraph {
+    font-size: .9rem;
+    line-height: 25px;
+    margin-top: 10px;
   }
 }
