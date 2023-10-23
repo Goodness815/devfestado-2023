@@ -4,10 +4,11 @@
   align-items: center;
   justify-content: center;
   padding: 4rem 0;
+  margin-top: 10rem;
 }
 
 .pitch_inner {
-  width: 90%;
+  width: 80%;
 }
 
 .pitch_header {
@@ -44,8 +45,8 @@
   justify-content: center;
   gap: 10px;
   padding: 20px;
+  width: 50%;
 }
-.heading3 {
 .heading3 {
   color: var(--grey);
   line-height: 10px;
@@ -53,12 +54,12 @@
 }
 .paragraph {
   width: 100%;
-  margin-right: 200px;
-  color: var(--black);
-  max-width: 800px;
-  font-size: clamp(14px, 1vw, 16px);
-  line-height: 25px;
+  font-family: var(--font);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 28px; /* 168.75% */
   margin-top: 20px;
+  text-align: justify;
 }
 .button {
   background-color: var(--darkblue);
@@ -75,57 +76,58 @@
   background: var(--black);
 }
 .pitchImage {
-  width: clamp(300px, 36vw, 583px);
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 .regularButton {
-  border: none;
-  border-radius: 28px;
-  padding: 15px 20px;
-  background-color: var(--darkblue);
-  color: var(--white);
-  font-family: var(--font);
-  font-size: 15px;
-  font-weight: 700;
-  cursor: pointer;
-  transition: 0.5s ease;
-  text-align: center;
   margin-top: 20px;
 }
 
-.regularButton:hover {
-  background-color: var(--black);
-  color: var(--white);
-}
-
-@media screen and (max-width: 600px) {
-  .pitch_container {
-    padding: 3rem 0;
+@media screen and (max-width: 1000px) {
+  .pitch_inner {
+    width: 90%;
   }
-
+  .paragraph {
+    font-size: 1rem;
+  }
+  .pitch_container {
+    margin-top: 7rem;
+  }
+}
+@media screen and (max-width: 950px) {
   .content_div {
     margin-top: 2rem;
     flex-direction: column;
     width: 95%;
+    gap: 20px;
   }
-
-  .paragraph {
-    font-size: 14px;
-    padding: 0px;
-    margin-top: 10px;
-    justify-content: center;
-    width: 100%;
-  }
-  .regularButton{
-    margin-top: 10px;
-  }
-  .pitch {
-    margin-top: -80px;
+  .img_div {
+    width: 70%;
   }
   .text_div {
-    padding: 0px;
+    width: 70%;
+    padding: 0;
   }
-  .pitchImage {
-    width: 100%;
+  .pitch_container {
+    margin-top: 5rem;
   }
 }
+@media screen and (max-width: 500px) {
+  .content_div {
+    margin-top: 2rem;
+    gap: 20px;
+    width: 100%;
+  }
+  .img_div {
+    width: 95%;
+  }
+  .text_div {
+    width: 95%;
+  }
+  .paragraph {
+    font-size: .9rem;
+    line-height: 25px;
+    margin-top: 10px;
+  }
 }
