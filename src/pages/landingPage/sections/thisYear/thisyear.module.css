@@ -61,6 +61,14 @@
   font-weight: 400;
 }
 
+.destop_text {
+  display: block;
+}
+
+.mobile_text {
+  display: none;
+}
+
 @media screen and (max-width: 999px) {
   .thisyear_inner > h1 {
     font-size: 28px;
@@ -130,5 +138,17 @@
     bottom: 0%;
     left: -30px;
     width: 40px;
+  }
+
+  .desktop_text {
+    display: none;
+  }
+
+  .mobile_text {
+    display: block;
+  }
+
+  .read_more {
+    margin-top: 15px;
   }
 }

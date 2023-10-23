@@ -74,20 +74,23 @@
   align-items: center;
   z-index: 1;
 }
-.ship {
-  position: absolute;
-  top: 4.38%;
-  left: 0;
-  width: 200px;
-}
 
 @media screen and (max-width: 640px) {
+  .sponsor_container {
+    padding-block: 30px;
+    gap: 3rem;
+  }
+
   .flex_container {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ship {
+    display: none;
   }
 }
 @media screen and (max-width: 500px) {
   .sponsor_div {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }

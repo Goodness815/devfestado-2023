@@ -305,7 +305,7 @@ export const Fedex = () => {
   );
 };
 
-export const Ship = () => {
+export const Ship = ({className}: any) => {
   return (
     <svg
       width="214"
@@ -314,6 +314,7 @@ export const Ship = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
+      className={`${className}`}
       style={{
         position: "absolute",
         top: "4.38%",
