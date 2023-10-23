@@ -49,7 +49,7 @@ function Showcase() {
           from all backgrounds are celebrated and you have the chance to connect
           with top tech talents?
           <br />
-          DevFest Ado-Ekiti 2023 is soon to be an unforgettable experience!
+          DevFest Ado-Ekiti 2023 will be an unforgettable experience!
         </p>
 
         <div
