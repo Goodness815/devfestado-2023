@@ -30,7 +30,7 @@ function Navbar() {
             <Link to="https://bit.ly/devfestado23callforpartners">
               Partner with us
             </Link>
-            <Link to="https://shop.devfestadoekiti.com/">Get Swags</Link>
+            <Link to="https://shop.devfestadoekiti.com/">Get your Swags</Link>
           </div>
           <div>
             <RegularButton
@@ -68,7 +68,7 @@ function Navbar() {
           <Link to="https://bit.ly/devfestado23callforpartners">
             Partner with us
           </Link>
-          <Link to="https://shop.devfestadoekiti.com/">Get Swags</Link>
+          <Link to="https://shop.devfestadoekiti.com/">Get your Swags</Link>
           <RegularButton
             title="Register Here"
             className={styles.sidebar_button}
