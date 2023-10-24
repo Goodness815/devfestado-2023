@@ -1,79 +1,122 @@
 .image_gallery_container {
-  margin-top: 40px;
+  /* margin-top: 40px; */
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 1000px;
-  
+  height: 900px;
+  padding-bottom: 100px;
 }
 .image_gallery_inner {
   max-width: 90%;
 }
 
-.image_gallery{
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative
+.image_gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .image_set {
   display: flex;
 }
 
-.image_set img {
-  width: 500px;
-}
-
 .image_one,
 .image_two {
-  height: 462px
+  width: 532px;
+  height: 462px;
 }
 
 .image_three {
+  width: 540px;
   height: 470px;
 }
 
 .image_four {
+  width: 522px;
   height: 450px;
 }
 
 .image_one {
-  /* z-index: 1; */
+  z-index: 1;
   position: absolute;
   right: -49%;
-  /* left: -48%; */
 }
 
 .image_two {
   position: absolute;
-  /* z-index: 2; */
-  top: -22%;
-  /* left: 36%; */
+  z-index: 2;
+  top: -230px;
+  left: -87px;
 }
 
 .image_three {
   position: absolute;
-  top: 50%;
-  left: -24%;
+  top: 100px;
+  left: -400px;
 }
 
-/* .image_four_container {
-  position: ;
-} */
-
 .image_four {
-  /* z-index: 3; */
+  z-index: 3;
   position: absolute;
+  top: 70px;
+  left: 45px;
+}
 
-  left: -20%;
+@media screen and (max-width: 999px) {
+  .image_gallery_container {
+    height: 600px;
+  }
+
+  .image_one,
+  .image_two {
+    width: 400px;
+    height: 350px;
+  }
+
+  .image_three {
+    width: 405px;
+    height: 353px;
+  }
+
+  .image_four {
+    width: 392px;
+    height: 338px;
+  }
+
+  .image_two {
+    top: -165px;
+    left: -70px;
+  }
+
+  .image_three {
+    top: 50px;
+    left: -300px;
+  }
+
+  .image_four {
+    top: 35px;
+    left: 10px;
+  }
+
+  .image_one {
+    right: -40%;
+  }
+
+  .image_gallery_container {
+    padding-bottom: 50px;
+  }
+
+  .image_gallery_inner {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .image_gallery_container {
-    height: 600px;
-
+    padding-bottom: 0px;
+    height: 500px;
   }
 
   .image_one,
@@ -90,5 +133,20 @@
   .image_four {
     width: 237px;
     height: 204px;
+  }
+
+  .image_two {
+    top: -100px;
+    left: -43px;
+  }
+
+  .image_three {
+    top: 50px;
+    left: -200px;
+  }
+
+  .image_four {
+    top: 35px;
+    left: 10px;
   }
 }
