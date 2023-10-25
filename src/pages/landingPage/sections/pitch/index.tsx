@@ -32,11 +32,13 @@ export const Pitch = () => {
               exciting ideas!
             </p>
 
-            <RegularButton
-              title="Click here to get started"
-              className={styles.regularButton}
-              url="https://bit.ly/devfestado23ideapitch"
-            />
+            <div className={styles.btn_container}>
+              <RegularButton
+                title="Click here to get started"
+                className={styles.regularButton}
+                url="https://bit.ly/devfestado23ideapitch"
+              />
+            </div>
           </div>
         </div>
       </div>
