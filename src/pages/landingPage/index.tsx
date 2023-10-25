@@ -8,7 +8,8 @@ import ThisYear from "./sections/thisYear";
 import Youtube from "./sections/youtube";
 import CountdownTimer from "./sections/countdown/CountdownTimer";
 import Twitter from "./sections/twitter";
-// import Speakers from "./sections/speakers";
+import Swags from "./sections/swags";
+import Speakers from "./sections/speakers";
 function LandingPage() {
   // Create a ref for the Pitch section
 
@@ -20,7 +21,8 @@ function LandingPage() {
       <Marquee />
       <ImageGallery/>
       <Pitch />
-      {/* <Speakers /> */}
+      <Swags />
+      <Speakers />
       <Twitter />
       <Youtube />
       <CountdownTimer />

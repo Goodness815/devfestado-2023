@@ -126,8 +126,13 @@
     width: 95%;
   }
   .paragraph {
-    font-size: .9rem;
+    font-size: 0.9rem;
     line-height: 25px;
     margin-top: 10px;
+  }
+
+  .btn_container {
+    display: flex;
+    justify-content: center;
   }
 }
