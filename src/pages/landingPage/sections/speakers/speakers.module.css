@@ -30,6 +30,13 @@
   justify-content: center;
   align-items: center;
 }
+
+.speaker_img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
 .h3,
 .p,
 .small {
@@ -110,5 +117,10 @@
 
   .ship {
     display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .flex_container {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

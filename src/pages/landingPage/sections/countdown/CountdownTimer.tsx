@@ -10,9 +10,12 @@ function CountdownTimer() {
   });
 
   useEffect(() => {
-    const targetDate: any = new Date(
-      `${new Date().getFullYear()}-11-05T09:00:00`
-    );
+    const now = new Date();
+    const tomorrow = new Date(now);
+    tomorrow.setDate(now.getDate() + 1);
+    tomorrow.setHours(9, 0, 0, 0);
+    
+    const targetDate: any = tomorrow;
     const interval = setInterval(() => {
       const now: any = new Date();
       const timeDifference = targetDate - now;
