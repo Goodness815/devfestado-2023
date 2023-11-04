@@ -119,8 +119,11 @@
     display: none;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .flex_container {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .speaker_img {
+    max-width: 300px;
   }
 }

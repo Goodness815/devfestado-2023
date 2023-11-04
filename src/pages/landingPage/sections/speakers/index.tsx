@@ -34,7 +34,7 @@ const allSpeakers = [
   {
     img: "https://lh3.googleusercontent.com/pw/ADCreHc4xzV1FqPMB2jQZwOCCt1Kamq_h5EtU343vKYVrLOD0gXCEMcW4Mxqgd96Zn_6XAI0fZCbe-nHi6cW_uE2IN2j037QfpgeXJWdCGYxk-8rPYmvQrJXhuqnoAuFxb8DSlzrRqxdCZUsAPhaCBUnpndy6g=w695-h753-s-no-gm?authuser=0",
     name: "Oyinkansola Awosan",
-    title: "Technical Writer/Deposits",
+    title: "Technical Writer Remita",
     role: "Speaker",
     imgPosition: "top",
   },
@@ -76,7 +76,7 @@ const allSpeakers = [
   {
     img: "https://lh3.googleusercontent.com/pw/ADCreHfWkBDhMxT4YJUT7xCw3d9ONz1hnUtcxL-7SBDOyne5-a_6k3_i2Afuic2DQKae6UeakKuCoN_VgreYkn6pQVJXgMScbv2QIi5hyEd1L7nV7M8TvH2q804sxA3h6AM_nYLMk42JJfsovBdSOcltAFTy1g=w724-h724-s-no-gm?authuser=0",
     name: "Mobolaji Tenibiaje",
-    title: "Lecturer",
+    title: "Lecturer BOUESTI",
     role: "Panelist",
     imgPosition: "top",
   },
@@ -97,14 +97,14 @@ const allSpeakers = [
   {
     img: "https://lh3.googleusercontent.com/pw/ADCreHfrFYaiDkuBLh-vIthJoVXlerj6ihmGSCY286ePy9EB1Lv5mi9MsxFGj6LGevTmrHW20sK3Z38-FeB2ayHoix3FW1DDHH14c3-Y3iZjCtDr7xWJOEJlF1OA9GV1lQYn6gYzqYnPAZtet8r5nq7O2fSNVg=w627-h836-s-no-gm?authuser=0",
     name: "Solaru Olusegun",
-    title: "Head of Community/FullGap",
+    title: "Product Designer at TAP",
     role: "Panelist",
     imgPosition: "center",
   },
   {
     img: "https://lh3.googleusercontent.com/pw/ADCreHdGMxpI0B_n0SOH-fSKXJs5WRilI1so6Nx-hA-h14CdelNM7m_eZvv8z1vsaa8HS0UqF2rdsMSxbQlSjMfCRyqaZ7swR-eihbVAHLKPrFOHT1bMZHuzpI21YZnQ0qNDh7e8LQLPMakU7MnlS_tggH8XuQ=w681-h769-s-no-gm?authuser=0",
     name: "Chizurum Egwunwankwo",
-    title: "Ecosystem & Partnerships",
+    title: "Programs Manager Propel",
     role: "Panelist",
     imgPosition: "top",
   },

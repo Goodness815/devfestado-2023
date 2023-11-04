@@ -1,46 +1,10 @@
-import { useState, useEffect } from "react";
+
 import styles from "./countdown.module.css";
 
 function CountdownTimer() {
-  const [countdown, setCountdown] = useState({
-    days: 0,
-    hours: "0",
-    minutes: "0",
-    seconds: "0",
-  });
 
-  useEffect(() => {
-    const now = new Date();
-    const tomorrow = new Date(now);
-    tomorrow.setDate(now.getDate() + 1);
-    tomorrow.setHours(9, 0, 0, 0);
-    
-    const targetDate: any = tomorrow;
-    const interval = setInterval(() => {
-      const now: any = new Date();
-      const timeDifference = targetDate - now;
 
-      if (timeDifference <= 0) {
-        clearInterval(interval);
-        return;
-      }
 
-      const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-      const hours = String(
-        Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
-      ).padStart(2, "0");
-      const minutes = String(
-        Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60))
-      ).padStart(2, "0");
-      const seconds = String(
-        Math.floor((timeDifference % (1000 * 60)) / 1000)
-      ).padStart(2, "0");
-
-      setCountdown({ days, hours, minutes, seconds });
-    }, 1000);
-
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <div className={styles.countdown_container}>
@@ -52,10 +16,10 @@ function CountdownTimer() {
         </div>
         <div className={styles.countdown_right}>
           <div className={styles.countdown_item}>
-            <span className={styles.countdown_yellow}>{countdown.days}</span>
-            <p className={styles.countdown_yellow}>Days</p>
+            <span className={styles.countdown_yellow}>We are live!</span>
+            {/* <p className={styles.countdown_yellow}>We are live!</p> */}
           </div>
-          <div>
+          {/* <div>
             <span>:</span>
             <br />
             <br />
@@ -81,7 +45,7 @@ function CountdownTimer() {
           <div className={styles.countdown_item}>
             <span>{countdown.seconds}</span>
             <p>Seconds</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
